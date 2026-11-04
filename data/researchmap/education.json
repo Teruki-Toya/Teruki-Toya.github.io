@@ -1,0 +1,101 @@
+{
+ "total_items": 3,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/education/42579913",
+   "@type": "education",
+   "@reverse": "https://api.researchmap.jp/t-toya/education",
+   "rm:id": "42579913",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:07:19Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:12:27Z",
+   "from_date": "2016-10",
+   "to_date": "2021-03",
+   "rm:institution_code": "0488000000",
+   "affiliation": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "department": {
+    "ja": "先端科学技術研究科",
+    "en": "Graduate School of Advanced Science and Technology"
+   },
+   "course": {
+    "ja": "博士後期課程",
+    "en": "Doctoral Program"
+   },
+   "note": {
+    "ja": "（2021.03 博士（情報科学））"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/education/42579909",
+   "@type": "education",
+   "@reverse": "https://api.researchmap.jp/t-toya/education",
+   "rm:id": "42579909",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:06:04Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:11:13Z",
+   "from_date": "2014-04",
+   "to_date": "2016-09",
+   "rm:institution_code": "0488000000",
+   "affiliation": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "department": {
+    "ja": "情報科学研究科",
+    "en": "School of Information Science"
+   },
+   "course": {
+    "ja": "博士前期課程",
+    "en": "Master's Program"
+   },
+   "note": {
+    "ja": "（2016.09 修士（情報科学））"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/education/42579906",
+   "@type": "education",
+   "@reverse": "https://api.researchmap.jp/t-toya/education",
+   "rm:id": "42579906",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:04:38Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:04:38Z",
+   "from_date": "2010-04",
+   "to_date": "2014-03",
+   "rm:institution_code": "0216000000",
+   "affiliation": {
+    "ja": "電気通信大学",
+    "en": "The University of Electro-Communications"
+   },
+   "department": {
+    "ja": "情報理工学部",
+    "en": "Department of Informatics and Engineering"
+   },
+   "course": {
+    "ja": "総合情報学科",
+    "en": "Faculty of Informatics"
+   }
+  }
+ ]
+}

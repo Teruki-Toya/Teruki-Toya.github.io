@@ -1,0 +1,45 @@
+name: Build & deploy site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "37 18 * * *"   # 毎日 03:37 JST に researchmap から再取得して更新
+  workflow_dispatch: {}      # Actions タブから手動実行も可
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch researchmap
+        run: python scripts/fetch_researchmap.py
+        continue-on-error: true   # 取得に失敗してもリポジトリ内のデータでビルドする
+      - name: Build
+        run: python build.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

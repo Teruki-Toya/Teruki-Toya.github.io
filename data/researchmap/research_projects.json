@@ -1,0 +1,641 @@
+{
+ "total_items": 7,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "47329565",
+   "rm:user_id": "R000050523",
+   "identifiers_id_modified": "2026-08-28 06:57:53",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "ai:assign_based_internal_feeds",
+   "rm:creator_type": "ai",
+   "rm:created": "2024-08-07T06:02:07Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:40:09Z",
+   "research_project_title": {
+    "ja": "多次元時空間スペクトルにおける特異点に着眼した音オブジェクト抽出・再生手法の確立",
+    "en": "Development of a method for extracting and reproducing sound objects focusing on singular points in multi-dimensional spatio-temporal spectra"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "小澤 賢司"
+     },
+     {
+      "name": "坂本 修一"
+     },
+     {
+      "name": "渡辺 貫治"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "system_name": {
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
+   },
+   "category": {
+    "ja": "基盤研究(B)",
+    "en": "Grant-in-Aid for Scientific Research (B)"
+   },
+   "institution_name": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "from_date": "2024-04-01",
+   "to_date": "2028-03-31",
+   "overall_grant_amount": {
+    "total_cost": "18330000",
+    "direct_cost": "14100000",
+    "indirect_cost": "4230000"
+   },
+   "identifiers": {
+    "grant_number": [
+     "24K02958"
+    ],
+    "national_grant_number": [
+     "JP24K02958"
+    ],
+    "rm:published_paper_id": [
+     "54765811",
+     "51526119",
+     "51526071",
+     "51526064",
+     "50583486"
+    ],
+    "rm:misc_id": [
+     "50556332"
+    ],
+    "rm:presentation_id": [
+     "53164222",
+     "53164195",
+     "51216972",
+     "51203518",
+     "51203507",
+     "51056257",
+     "49601804",
+     "49601770"
+    ]
+   },
+   "see_also": [
+    {
+     "label": "kaken",
+     "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K02958"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/54765811"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51526119"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51526071"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51526064"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/50583486"
+    },
+    {
+     "label": "rm:misc",
+     "@id": "https://api.researchmap.jp/t-toya/misc/50556332"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53164222"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53164195"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216972"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203518"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203507"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51056257"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601804"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601770"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "48253682",
+   "rm:user_id": "R000050523",
+   "identifiers_id_modified": "2026-08-28 06:57:06",
+   "display": "disclosed",
+   "major_achievement": true,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:35:50Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:35:53Z",
+   "research_project_title": {
+    "ja": "音楽信号を用いた電子打診による体調管理の支援可能性の探求",
+    "en": "Exploring the Potential of Health Management Support through Electronic Percussion Using Musical Signals"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "小澤 賢司"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "木戸 浩一郎"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "system_name": {
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
+   },
+   "category": {
+    "ja": "挑戦的研究(萌芽)",
+    "en": "Grant-in-Aid for Challenging Research (Exploratory)"
+   },
+   "institution_name": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "from_date": "2024-06",
+   "to_date": "2027-03",
+   "research_project_owner_role": "coinvestigator",
+   "overall_grant_amount": {
+    "total_cost": "6240000",
+    "direct_cost": "4800000",
+    "indirect_cost": "1440000"
+   },
+   "identifiers": {
+    "grant_number": [
+     "24K22337"
+    ],
+    "national_grant_number": [
+     "JP24K22337"
+    ],
+    "rm:published_paper_id": [
+     "54765951",
+     "51526077"
+    ],
+    "rm:presentation_id": [
+     "51216983",
+     "51056269",
+     "49601779"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K22337",
+     "label": "kaken"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/54765951"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51526077"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216983"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51056269"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601779"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "48253677",
+   "rm:user_id": "R000050523",
+   "identifiers_id_modified": "2026-04-01 05:39:37",
+   "display": "disclosed",
+   "major_achievement": true,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:35:11Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:35:15Z",
+   "research_project_title": {
+    "ja": "骨導デバイスを用いた耳開放型騒音抑圧法の確立",
+    "en": "Method for open-ear noise suppression using bone-conduction devices"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "system_name": {
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
+   },
+   "category": {
+    "ja": "若手研究",
+    "en": "Grant-in-Aid for Early-Career Scientists"
+   },
+   "institution_name": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "from_date": "2024-04",
+   "to_date": "2027-03",
+   "research_project_owner_role": "principal_investigator",
+   "overall_grant_amount": {
+    "total_cost": "4680000",
+    "direct_cost": "3600000",
+    "indirect_cost": "1080000"
+   },
+   "identifiers": {
+    "grant_number": [
+     "24K20791"
+    ],
+    "national_grant_number": [
+     "JP24K20791"
+    ],
+    "rm:presentation_id": [
+     "53162814",
+     "51216999",
+     "51203500",
+     "49601791"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20791",
+     "label": "kaken"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53162814"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216999"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203500"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601791"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/48253706",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "48253706",
+   "rm:user_id": "R000050523",
+   "identifiers_id_modified": "2026-08-28 06:42:16",
+   "display": "disclosed",
+   "major_achievement": true,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:39:45Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:39:58Z",
+   "research_project_title": {
+    "ja": "発話者の骨導音知覚特性を考慮した気導音－自己聴取音の声質変換モデル構築"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "カワイサウンド技術・音楽振興財団"
+   },
+   "system_name": {
+    "ja": "2024年度 サウンド技術振興部門（音声）"
+   },
+   "institution_name": {
+    "ja": "山梨大学"
+   },
+   "from_date": "2024-04",
+   "to_date": "2025-03",
+   "research_project_owner_role": "principal_investigator",
+   "identifiers": {
+    "rm:award_id": [
+     "48412035"
+    ],
+    "rm:published_paper_id": [
+     "48412020"
+    ]
+   },
+   "see_also": [
+    {
+     "label": "rm:awards",
+     "@id": "https://api.researchmap.jp/t-toya/awards/48412035"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/48412020"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "44397623",
+   "rm:user_id": "R000050523",
+   "identifiers_id_modified": "2026-08-28 06:59:26",
+   "display": "disclosed",
+   "major_achievement": true,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-01-05T05:46:51Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:35:59Z",
+   "research_project_title": {
+    "ja": "伝音難聴の非侵襲診断に関する研究開発",
+    "en": "Study on non-invasive diagnosis of conductive hearing loss"
+   },
+   "offer_organization": {
+    "ja": "国立研究開発法人日本医療研究開発機構（AMED）",
+    "en": "Japan Agency for Medical Research and Development (AMED)"
+   },
+   "system_name": {
+    "ja": "医療機器等研究成果展開事業（開発実践タイプ）",
+    "en": "Project for deploying research outcomes for medical devices"
+   },
+   "institution_name": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "from_date": "2023-04",
+   "to_date": "2024-03",
+   "research_project_owner_role": "coinvestigator",
+   "identifiers": {
+    "grant_number": [
+     "JP23hma322027"
+    ],
+    "rm:award_id": [
+     "45584170"
+    ],
+    "rm:published_paper_id": [
+     "51849616",
+     "50583497",
+     "50256746",
+     "45959854",
+     "45592916",
+     "45592914",
+     "45592909"
+    ],
+    "rm:misc_id": [
+     "51849627",
+     "54766841"
+    ],
+    "rm:presentation_id": [
+     "49601812",
+     "45959889"
+    ]
+   },
+   "see_also": [
+    {
+     "label": "rm:awards",
+     "@id": "https://api.researchmap.jp/t-toya/awards/45584170"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51849616"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/50583497"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/50256746"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/45959854"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/45592916"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/45592914"
+    },
+    {
+     "label": "rm:published_papers",
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/45592909"
+    },
+    {
+     "label": "rm:misc",
+     "@id": "https://api.researchmap.jp/t-toya/misc/51849627"
+    },
+    {
+     "label": "rm:misc",
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766841"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601812"
+    },
+    {
+     "label": "rm:presentations",
+     "@id": "https://api.researchmap.jp/t-toya/presentations/45959889"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/42580335",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "42580335",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:36:31Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:36:31Z",
+   "research_project_title": {
+    "ja": "気導・骨導経路による自己聴取音声の伝達過程の解明",
+    "en": "Study on transmission process of one's own voice through air- and bone-conduction pathways"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "system_name": {
+    "ja": "科学研究費助成事業 研究活動スタート支援",
+    "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Research Activity Start-up"
+   },
+   "category": {
+    "ja": "研究活動スタート支援",
+    "en": "Grant-in-Aid for Research Activity Start-up"
+   },
+   "institution_name": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "from_date": "2021-08",
+   "to_date": "2024-03",
+   "research_project_owner_role": "principal_investigator",
+   "overall_grant_amount": {
+    "total_cost": "3120000",
+    "direct_cost": "2400000",
+    "indirect_cost": "720000"
+   },
+   "description": {
+    "ja": "本研究の目的は，聴覚フィードバックにおける気導・骨導経路による自己聴取音声の伝達・知覚過程を明らかにすることである．その具体的内容は次の2点である．① 実際の発声や人工音励振を用いて，発話器官から聴覚器官に至る骨導伝達系の周波数特性を物理的測定により明らかにする（1年目）．その上で，② 得られた伝達特性を用いて骨導音声を模擬し，自己聴取音声の聴感を満たすための気導・骨導音声の混合レベルを検討することで，気導・骨導経路の各々の知覚的寄与を明らかにする（2年目）．\n実施1年目として，発話器官から聴覚器官への骨導伝達特性を安定に物理測定するための方法について検討した．実際の発話に加え，口腔の内部で人工的に音を出す装置などを自作して用い，頭部の観測位置で音や振動を観測することにより，発話過程の中で声道内音圧伝搬を経た骨導経路の伝達特性を得た．具体的には，(i) 口腔内から側頭部に音（振動）が伝達される際には 主に 2 kHz以下の低域通過特性を，(ii) 口腔内から外耳道内に音が伝達される際には，主に 1 ~ 3 kHzにおける帯域通過特性を受けることを示した．伝達特性をさらに安定して測定するために，耳を塞ぐことなく観測部周辺の測定ノイズを遮断する手法を検討する必要があるが，この点については改良の余地がある．\n上記の点を踏まえ，実施2年目には，周囲の音を遮断しながら伝達特性を安定して物理測定するための測定基盤を整備する．その上で，気導・骨導経路の各々の知覚的寄与の検討として，ヒトを対象とした主観評価実験を実施する予定である．"
+   },
+   "identifiers": {
+    "grant_number": [
+     "21K21314"
+    ],
+    "national_grant_number": [
+     "JP21K21314"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21K21314",
+     "label": "kaken"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects/42580337",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+   "rm:id": "42580337",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:38:52Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:38:52Z",
+   "research_project_title": {
+    "ja": "ヒトの歌唱における聴覚フィードバックメカニズムの解明",
+    "en": "Study on Auditory Feedback Mechanisms during Singing"
+   },
+   "investigators": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "offer_organization": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "system_name": {
+    "ja": "科学研究費助成事業 特別研究員奨励費",
+    "en": "Grant-in-Aid for JSPS Fellows"
+   },
+   "category": {
+    "ja": "特別研究員奨励費",
+    "en": "Grant-in-Aid for JSPS Fellows"
+   },
+   "institution_name": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "from_date": "2017-04",
+   "to_date": "2020-03",
+   "research_project_owner_role": "principal_investigator",
+   "overall_grant_amount": {
+    "total_cost": "2500000",
+    "direct_cost": "2500000",
+    "indirect_cost": "0"
+   },
+   "description": {
+    "ja": "本研究課題は，ヒトの発話・歌唱における聴覚フィードバックにおいて気導・骨導音声知覚のそれぞれが担う役割を明らかにすることを目的としている．目的の達成に向け，採用最終年度目では骨導音声に関わる物理的な伝達特性と知覚的性質の両面に着目し，1. 骨導音声に関わる伝達特性の測定とフィルタ構築，2. 気導・骨導音声の知覚的割合に基づいた骨導経路の主要性検証，3. 聴覚フィードバックにおける骨導音声の伝達過程のモデル化と総合考察の3点の検討項目を遂行した．具体的内容と得られた成果は次の通りである．1. 骨導音声伝達に関わる伝達特性として、頭部振動では2kHz未満の低域通過特性を、外耳道内放射では3kHz付近の帯域通過特性を有することが分かった。このことを踏まえ、気導音声を用いて骨導音声を聴感的に模擬するためのフィルタを構築した。2. 前項目で構築したフィルタを用いて模擬骨導音声を作成し、話者が知覚する音声における気導音声と骨導音声の混合比を主観評価により決定した。このとき、蝸牛への直接伝達を仮定した頭部振動の伝達特性を用いると、気導音声と模擬骨導音声の混合比が約1:1となり、従来の生理学的知見を説明できることが分かった。3. 前項目の結果より、骨導音声知覚においては外耳道内放射よりも蝸牛への直接伝達の寄与が大きい可能性が示唆された。以上の検討結果を踏まえ、骨導音声の伝達過程をモデル化した。結論として、骨導音声は聴覚フィードバックとして，主に低域の周波数成分に含まれる情報の伝達に関与する可能性を示唆した．\n当該年度を含め，本研究により得られた成果は，ヒトの発話・聴覚メカニズムに関わる知見の深化に不可欠なものである．また，本研究で得られた骨導音声の伝達過程に関する知見から，骨導デバイスを用いた発話・聴覚障碍者支援をはじめとする臨床・工学的応用が期待される．"
+   },
+   "identifiers": {
+    "grant_number": [
+     "17J03679"
+    ],
+    "national_grant_number": [
+     "JP17J03679"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-17J03679",
+     "label": "kaken"
+    }
+   ]
+  }
+ ]
+}

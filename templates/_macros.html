@@ -1,0 +1,63 @@
+{% macro news_list(news, lang, t) %}
+<ul class="news-list">
+{% for n in news %}
+  <li class="news-item" data-kind="{{ n.kind }}">
+    <span class="news-date">{{ dot_date(n.date) }}</span>
+    <span class="chip chip-{{ n.kind }}">{{ t['kind_' ~ n.kind] }}</span>
+    {% if n.url %}<a class="news-text" href="{{ n.url }}" rel="noopener">{{ L(n.text, lang) }}</a>
+    {% else %}<span class="news-text">{{ L(n.text, lang) }}</span>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro news_filters(t) %}
+<div class="pill-row" data-filter-group="news" role="group" aria-label="filter">
+  <button type="button" class="pill" aria-pressed="true" data-kind="all">{{ t.all }}</button>
+  <button type="button" class="pill" aria-pressed="false" data-kind="paper">{{ t.kind_paper }}</button>
+  <button type="button" class="pill" aria-pressed="false" data-kind="talk">{{ t.kind_talk }}</button>
+  <button type="button" class="pill" aria-pressed="false" data-kind="award">{{ t.kind_award }}</button>
+  <button type="button" class="pill" aria-pressed="false" data-kind="other">{{ t.kind_other }}</button>
+</div>
+{% endmacro %}
+
+{% macro badge(p, t) %}
+{% if p.badge == 'lead' %}<span class="badge badge-solid">{{ t.badge_lead }}</span>
+{% elif p.badge == 'collab' %}<span class="badge badge-solid">{{ t.badge_collab }}</span>
+{% else %}<span class="badge badge-outline">{{ t.badge_ongoing }}</span>{% endif %}
+{% endmacro %}
+
+{% macro layers_art(p, lang) %}
+<div class="layers" aria-hidden="true">
+  {% for l in L(p.layers, lang) %}<div class="layer layer-{{ loop.index }}"><span>{{ '%02d' % loop.index }}</span>{{ l }}</div>{% endfor %}
+</div>
+{% endmacro %}
+
+{% macro project_card(p, lang, t, lang_root, root, big=false) %}
+<a class="pcard {{ 'pcard-big' if big else 'pcard-small' }}{% if big and loop_index is defined %}{% endif %}" href="{{ lang_root }}research/{{ p.slug }}.html">
+  <div class="pcard-media">
+    {% if p.image %}<img src="{{ root }}{{ p.image }}" alt="{{ L(p.image_alt, lang) }}" loading="lazy">
+    {% elif p.layers %}{{ layers_art(p, lang) }}{% endif %}
+  </div>
+  <div class="pcard-body">
+    <div class="badges">{{ badge(p, t) }}{% if p.funding %}<span class="badge badge-ghost">{{ L(p.funding, lang) }}</span>{% endif %}</div>
+    <span class="eyebrow">No.{{ p.num }} · {{ p.eyebrow }}</span>
+    <h3>{{ L(p.title, lang) }}</h3>
+    <p>{{ L(p.summary, lang) }}</p>
+    <div class="tags">{% for g in L(p.tags, lang) %}<span class="tag">{{ g }}</span>{% endfor %}</div>
+  </div>
+</a>
+{% endmacro %}
+
+{% macro pub_item(i, lang, t, lang_root, proj_by_slug, show_year=true) %}
+<li class="pub" data-cat="{{ i.cat }}" data-fy="{{ i.fy or '' }}" data-proj="{{ i.projects|join(' ') }}">
+  {% if show_year %}<span class="pub-year">{{ i.date[:4] }}</span>{% endif %}
+  <div class="pub-body">
+    <p class="pub-cite">{{ i['cite_' ~ lang] }}</p>
+    <div class="pub-meta">
+      {% for s in i.projects %}<a class="tag" href="{{ lang_root }}research/{{ s }}.html">No.{{ proj_by_slug[s].num }} {{ L(proj_by_slug[s].short, lang) }}</a>{% endfor %}
+      {% for l in i.links %}<a class="pub-link" href="{{ l.url }}" rel="noopener">{{ l.label }} ↗</a>{% endfor %}
+    </div>
+  </div>
+</li>
+{% endmacro %}

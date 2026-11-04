@@ -1,0 +1,126 @@
+{
+ "total_items": 1,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/books_etc/50379679",
+   "@type": "books_etc",
+   "@reverse": "https://api.researchmap.jp/t-toya/books_etc",
+   "rm:id": "50379679",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-06-12T03:56:55Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-06-12T03:56:55Z",
+   "book_title": {
+    "ja": "進化するヒトと機械の音声コミュニケーション Vol.2: AIの活用と感情に寄り添う音声認識・合成の新展開"
+   },
+   "book_owner_role": "joint_work",
+   "authors": {
+    "ja": [
+     {
+      "name": "伊藤, 彰則"
+     },
+     {
+      "name": "森川, 大輔"
+     },
+     {
+      "name": "上江洲, 安史"
+     },
+     {
+      "name": "鳥谷, 輝樹"
+     },
+     {
+      "name": "高野, 佐代子"
+     },
+     {
+      "name": "河原, 達也"
+     },
+     {
+      "name": "鵜木, 祐史"
+     },
+     {
+      "name": "齊藤, 剛史"
+     },
+     {
+      "name": "吉村, 奈津江"
+     },
+     {
+      "name": "平井, 重行"
+     },
+     {
+      "name": "中島, 佐和子"
+     },
+     {
+      "name": "大河内, 直之"
+     },
+     {
+      "name": "中臺, 一博"
+     },
+     {
+      "name": "糸山, 克寿"
+     },
+     {
+      "name": "福森, 隆寛"
+     },
+     {
+      "name": "周藤, 唯"
+     },
+     {
+      "name": "松田, 裕之"
+     },
+     {
+      "name": "渡辺, 光太朗"
+     },
+     {
+      "name": "白土, 浩司"
+     },
+     {
+      "name": "三井, 祥幹"
+     },
+     {
+      "name": "鳥居, 崇"
+     },
+     {
+      "name": "中川, 達也"
+     },
+     {
+      "name": "高橋, 敏"
+     },
+     {
+      "name": "加藤, 集平"
+     }
+    ]
+   },
+   "book_owner_range": {
+    "ja": "第1編 聴覚・発声のメカニズムと音声認識・合成の最新技術 第1章 聴覚・発声のメカニズム"
+   },
+   "publisher": {
+    "ja": "エヌ・ティー・エス"
+   },
+   "publication_date": "2025-04",
+   "total_page": "1, 7, 254, 6p, 図版5p",
+   "languages": [
+    "jpn"
+   ],
+   "identifiers": {
+    "cinii_nc_id": [
+     "BD11469636"
+    ],
+    "isbn": [
+     "9784860439361"
+    ]
+   },
+   "see_also": [
+    {
+     "label": "cinii_books",
+     "@id": "http://ci.nii.ac.jp/ncid/BD11469636",
+     "is_downloadable": false
+    }
+   ]
+  }
+ ]
+}

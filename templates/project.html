@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set active = 'research' %}
+{% block title %}{{ L(p.title, lang) }} | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<article class="project">
+  <header class="project-hero">
+    <div class="wrap project-hero-inner">
+      <div class="project-hero-text">
+        <a class="back" href="{{ lang_root }}research/index.html">{{ t.back_research }}</a>
+        <div class="badges">{{ m.badge(p, t) }}{% if p.funding %}<span class="badge badge-ghost">{{ L(p.funding, lang) }}</span>{% endif %}</div>
+        <span class="eyebrow">No.{{ p.num }} · {{ p.eyebrow }}</span>
+        <h1>{{ L(p.title, lang) }}</h1>
+        {% if p.subtitle %}<p class="subtitle">{{ L(p.subtitle, lang) }}</p>{% endif %}
+        <p class="lead">{{ L(p.summary, lang) }}</p>
+        <div class="tags">{% for g in L(p.tags, lang) %}<span class="tag">{{ g }}</span>{% endfor %}</div>
+        {% if p.partner_url %}<a class="more" href="{{ p.partner_url }}" rel="noopener">{{ p.partner_url }} ↗</a>{% endif %}
+      </div>
+      <figure class="project-hero-fig">
+        {% if p.image %}<img src="{{ root }}{{ p.image }}" alt="{{ L(p.image_alt, lang) }}">
+        {% elif p.layers %}{{ m.layers_art(p, lang) }}{% endif %}
+      </figure>
+    </div>
+  </header>
+
+  <div class="wrap project-body">
+    {% for s in p.sections %}
+    <section class="psec">
+      <h2>{{ L(s.heading, lang) }}</h2>
+      <div class="psec-content">
+        {% if s.body %}<p>{{ L(s.body, lang) }}</p>{% endif %}
+        {% if s.list %}<ol class="steps">{% for x in L(s.list, lang) %}<li>{{ x }}</li>{% endfor %}</ol>{% endif %}
+        {% if s.image %}<figure class="psec-fig"><img src="{{ root }}{{ s.image }}" alt="{{ L(s.image_alt, lang) }}" loading="lazy"></figure>{% endif %}
+      </div>
+    </section>
+    {% endfor %}
+
+    {% if pgrants %}
+    <section class="psec">
+      <h2>{{ t.related_grants }}</h2>
+      <ul class="grant-list compact">
+        {% for g in pgrants %}
+        <li class="grant">
+          <span class="badge {{ 'badge-solid' if g.role == 'pi' else 'badge-outline' }}">{{ t.role_pi if g.role == 'pi' else t.role_co }}</span>
+          <div><strong>{{ L(g.raw.research_project_title, lang) }}</strong>
+            <span class="muted">{{ L(g.raw.offer_organization, lang) }} {{ L(g.raw.system_name, lang) }}{% if g.raw.category %} · {{ L(g.raw.category, lang) }}{% endif %} · {{ g.from }}–{{ g.to }}</span></div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if rel %}
+    <section class="psec">
+      <h2>{{ t.related_pubs }} <span class="count">{{ rel|length }}</span></h2>
+      <ul class="pub-list">
+        {% for i in rel %}{{ m.pub_item(i, lang, t, lang_root, proj_by_slug) }}{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+</article>
+{% endblock %}

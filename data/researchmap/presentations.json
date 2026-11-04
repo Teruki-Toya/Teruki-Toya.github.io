@@ -1,0 +1,2742 @@
+{
+ "total_items": 54,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/53164244",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "53164244",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2026-04-01T06:25:05Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2026-04-01T06:25:05Z",
+   "presentation_title": {
+    "ja": "音声の音高と音色の知覚の個人性調査"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "森田 翔太"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第155回（2026年春季）研究発表会"
+   },
+   "publication_date": "2026-03-17",
+   "from_event_date": "2026-03-17",
+   "to_event_date": "2026-03-19",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/53164222",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "53164222",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2026-04-01T06:24:18Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2026-04-01T06:25:27Z",
+   "presentation_title": {
+    "ja": "時空間音圧分布画像を用いた音源分離にマイクロホンアレイの位置ずれが及ぼす影響"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "富田 浩音"
+     },
+     {
+      "name": "坂本 修一"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "小澤 賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第155回（2026年春季）研究発表会"
+   },
+   "publication_date": "2026-03-17",
+   "from_event_date": "2026-03-17",
+   "to_event_date": "2026-03-19",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/53164195",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "53164195",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2026-04-01T06:23:21Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2026-04-01T06:25:35Z",
+   "presentation_title": {
+    "ja": "位相を含む時空間スペクトル画像に対する欠損修復に基づく雑音抑圧の改良"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "両角 有真"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "小澤 賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第155回（2026年春季）研究発表会"
+   },
+   "publication_date": "2026-03-17",
+   "from_event_date": "2026-03-17",
+   "to_event_date": "2026-03-19",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/53163004",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "53163004",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2026-04-01T05:43:15Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2026-04-01T05:43:15Z",
+   "presentation_title": {
+    "ja": "大学工学部教員3年目の研究すゝめ方事例"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "ビギナーズセミナー（学生・若手フォーラム主催） @日本音響学会第155回（2026年春季）研究発表会"
+   },
+   "publication_date": "2026-03-17",
+   "from_event_date": "2026-03-17",
+   "to_event_date": "2026-03-17",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "public_discourse",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/53162814",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "53162814",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2026-04-01T05:39:37Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2026-04-01T05:39:37Z",
+   "presentation_title": {
+    "ja": "骨導・軟骨導音提示による気導音抑圧に最適な位相条件の検討",
+    "en": "Preliminary study on the optimal phase condition of bone-conduction stimulation for suppression of air-conducted sound"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "三木 歩"
+     },
+     {
+      "name": "小澤 賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Ayumu Miki"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第155回（2026年春季）研究発表会"
+   },
+   "publication_date": "2026-03-17",
+   "from_event_date": "2026-03-17",
+   "to_event_date": "2026-03-17",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253677"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51216999",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51216999",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-20T01:54:57Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-20T01:54:57Z",
+   "presentation_title": {
+    "ja": "両耳提示された気導音の抑圧に向けた骨導提示方式の検討",
+    "en": "Consideration on a setup/procedure of bone-conduction stimulation for suppression of binaural air-conducted sound"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "三木歩"
+     },
+     {
+      "name": "幸田怜奈"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Ayumu Miki"
+     },
+     {
+      "name": "Reina Koda"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-12",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253677"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51216983",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51216983",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-20T01:51:47Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-20T01:51:47Z",
+   "presentation_title": {
+    "ja": "音楽信号を用いた電子打診の実用化に向けた検討",
+    "en": "Towards the practical application of electronic percussion using musical signals"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "松井希和"
+     },
+     {
+      "name": "清水唯衣"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Kiwa Matsui"
+     },
+     {
+      "name": "Yui Shimizu"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-11",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253682"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51216972",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51216972",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-20T01:50:01Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-20T01:50:01Z",
+   "presentation_title": {
+    "ja": "小規模マイクロホンアレイから得た時空間スペクトルに基づくスパースベイズ音源分離",
+    "en": "Sparse Bayesian sound source separation based on spatiotemporal spectrum obtained from a small microphone array"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "有泉千太"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Senta Ariizumi"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-10",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51203518",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51203518",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-18T13:34:32Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-18T13:34:32Z",
+   "presentation_title": {
+    "ja": "小型マイクロホンアレイを用いた雑音抑圧システムの実機リアルタイム化",
+    "en": "Real-time ISSS noise suppression system using a small microphone array"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "原口侑梧"
+     },
+     {
+      "name": "花形駿太"
+     },
+     {
+      "name": "粟盛智也"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Yugo Haraguchi"
+     },
+     {
+      "name": "Shunta Hanagata"
+     },
+     {
+      "name": "Tomoya Awamori"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-10",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51203507",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51203507",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-18T13:32:54Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-18T13:32:54Z",
+   "presentation_title": {
+    "ja": "位相を含む時空間スペクトル画像に対する画像修復に基づく雑音抑圧の検討",
+    "en": "Noise suppression based on image restoration of spatiotemporal spectral images including phase information"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "両角有真"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Yuma Morozumi"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-10",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51203500",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51203500",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-18T13:31:16Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-18T13:31:16Z",
+   "presentation_title": {
+    "ja": "骨導無発声音声の明瞭度向上に向けた音声強調システムの検討",
+    "en": "Investigation of speech enhancement systems for improving intelligibility of bone-conducted whispered speech"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "草田晃彦"
+     },
+     {
+      "name": "小澤賢司"
+     },
+     {
+      "name": "鳥谷輝樹"
+     }
+    ],
+    "en": [
+     {
+      "name": "Akihiko Kusada"
+     },
+     {
+      "name": "Kenji Ozawa"
+     },
+     {
+      "name": "Teruki Toya"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+    "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2025-09-10",
+   "from_event_date": "2025-09-10",
+   "to_event_date": "2025-09-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253677"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51056269",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51056269",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-04T13:02:19Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-04T13:02:19Z",
+   "presentation_title": {
+    "ja": "音楽信号による打診における測定方法の検討",
+    "en": "Fundamental Study on Measurement Methods for Percussion Inspection Using Musical Signals"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "清水唯衣"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Yui Shimizu"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "第24 回情報科学技術フォーラム（FIT2015）",
+    "en": "24th IPSJ Forum on Information Technology"
+   },
+   "publication_date": "2025-09-04",
+   "from_event_date": "2025-09-03",
+   "to_event_date": "2025-09-05",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253682"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/51056257",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "51056257",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-09-04T12:59:44Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-09-04T13:02:46Z",
+   "presentation_title": {
+    "ja": "マイクロホンの周波数特性の校正がISSS 法による雑音抑制に及ぼす効果",
+    "en": "Effect of Microphone Frequency Response Calibration on Noise Suppression by the ISSS Method"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "原口侑梧"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ],
+    "en": [
+     {
+      "name": "Yugo Haraguchi"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "event": {
+    "ja": "第24 回情報科学技術フォーラム（FIT2015）",
+    "en": "24th IPSJ Forum on Information Technology"
+   },
+   "publication_date": "2025-09-04",
+   "from_event_date": "2025-09-03",
+   "to_event_date": "2025-09-05",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/49601812",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "49601812",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-03-30T10:04:45Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-03-30T10:04:45Z",
+   "presentation_title": {
+    "ja": "外耳道内圧掃引下でのインパルス応答測定による伝音難聴検査法の検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "周迪"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第153回（2025年春季）研究発表会"
+   },
+   "publication_date": "2025-03-18",
+   "from_event_date": "2025-03-17",
+   "to_event_date": "2025-03-19",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "44397623"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/49601804",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "49601804",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-03-30T10:02:42Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-03-30T10:02:42Z",
+   "presentation_title": {
+    "ja": "小型マイクロホンアレイと時空間2 次元スペクトルを利用した周方向の音源分離に関する考察"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "有泉千太"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "渡邉貫治"
+     },
+     {
+      "name": "坂本修一"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第153回（2025年春季）研究発表会"
+   },
+   "publication_date": "2025-03-17",
+   "from_event_date": "2025-03-17",
+   "to_event_date": "2025-03-19",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/49601791",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "49601791",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-03-30T09:59:11Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-03-30T09:59:11Z",
+   "presentation_title": {
+    "ja": "骨導提示音による気導提示音抑圧のための振幅・位相条件の検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "幸田怜奈"
+     },
+     {
+      "name": "鵜木祐史"
+     },
+     {
+      "name": "小澤賢司"
+     },
+     {
+      "name": "鳥谷輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "情報処理学会第87回全国大会"
+   },
+   "publication_date": "2025-03-15",
+   "from_event_date": "2025-03-13",
+   "to_event_date": "2025-03-15",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253677"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/49601779",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "49601779",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-03-30T09:56:50Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-03-30T09:56:50Z",
+   "presentation_title": {
+    "ja": "音楽信号による打診の実現に向けた基礎的検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "清水唯衣"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "情報処理学会第87回全国大会"
+   },
+   "publication_date": "2025-03-15",
+   "from_event_date": "2025-03-13",
+   "to_event_date": "2025-03-15",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253682"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/49601770",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "49601770",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-03-30T09:55:40Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-03-30T09:55:40Z",
+   "presentation_title": {
+    "ja": "スパースベイズ推定による時空間スペクトルを用いた複数音源の到来方向推定に関する考察"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "有泉千太"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "情報処理学会第87回全国大会"
+   },
+   "publication_date": "2025-03-15",
+   "from_event_date": "2025-03-13",
+   "to_event_date": "2025-03-15",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "47329565"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/48253664",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "48253664",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:32:50Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:32:50Z",
+   "presentation_title": {
+    "ja": "Multimodal Sarcasm Analysis: Sarcastic Cues Capture from Both Emotional Polarity and Semantic Information",
+    "en": "Multimodal Sarcasm Analysis: Sarcastic Cues Capture from Both Emotional Polarity and Semantic Information"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "Ziwei Yang"
+     },
+     {
+      "name": "Jiajia Tang"
+     },
+     {
+      "name": "Feiwei Zhou"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji. Ozawa"
+     },
+     {
+      "name": "Wanzeng Kong"
+     }
+    ],
+    "en": [
+     {
+      "name": "Ziwei Yang"
+     },
+     {
+      "name": "Jiajia Tang"
+     },
+     {
+      "name": "Feiwei Zhou"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Kenji. Ozawa"
+     },
+     {
+      "name": "Wanzeng Kong"
+     }
+    ]
+   },
+   "event": {
+    "ja": "FIT2024",
+    "en": "FIT2024"
+   },
+   "publication_date": "2024-09-06",
+   "from_event_date": "2024-09-04",
+   "to_event_date": "2024-09-06",
+   "invited": false,
+   "languages": [
+    "eng"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/48253645",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "48253645",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:29:54Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:29:54Z",
+   "presentation_title": {
+    "ja": "開放耳における気導提示純音の骨導提示音による抑圧効果"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "幸田怜奈"
+     },
+     {
+      "name": "鵜木祐史"
+     },
+     {
+      "name": "小澤賢司"
+     },
+     {
+      "name": "鳥谷輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第152回（2024年秋季）研究発表会"
+   },
+   "publication_date": "2024-09-05",
+   "from_event_date": "2024-09-03",
+   "to_event_date": "2024-09-05",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/48253632",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "48253632",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:28:23Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:28:23Z",
+   "presentation_title": {
+    "ja": "骨導伝達特性の個人性を考慮した自己聴取音模擬の一検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "河野太一"
+     },
+     {
+      "name": "久保田樹"
+     },
+     {
+      "name": "小澤賢司"
+     },
+     {
+      "name": "鳥谷輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第152回（2024年秋季）研究発表会"
+   },
+   "publication_date": "2024-09-04",
+   "from_event_date": "2024-09-03",
+   "to_event_date": "2024-09-05",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/48253618",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "48253618",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:27:04Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:27:04Z",
+   "presentation_title": {
+    "ja": "複数音声音源に対するスパースベイズ推定による音源測距に関する考察"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "久保田樹"
+     },
+     {
+      "name": "有泉千太"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小澤賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "音学シンポジウム2024"
+   },
+   "publication_date": "2024-06-14",
+   "from_event_date": "2024-06-14",
+   "to_event_date": "2024-06-15",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/48253605",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "48253605",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-10-21T06:25:32Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-10-21T06:25:32Z",
+   "presentation_title": {
+    "ja": "短時間音を用いた伝音難聴検査法の開発"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "周迪"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第36回バイオエンジニアリング講演会"
+   },
+   "publication_date": "2024-05-11",
+   "from_event_date": "2024-05-11",
+   "to_event_date": "2024-05-12",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/45959889",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "45959889",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-03-31T09:33:14Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-03-31T09:33:14Z",
+   "presentation_title": {
+    "ja": "SVMによる中耳病変の分類解析",
+    "en": "Classification of middle ear pathologies based on SVM"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "周迪"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "村越道生"
+     }
+    ],
+    "en": [
+     {
+      "name": "Di Zhou"
+     },
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Michio Murakoshi"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第151回（2024年春季）研究発表会講演論文集",
+    "en": "Proc. 151th (2024 Spring) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2024-03-06",
+   "from_event_date": "2024-03-06",
+   "to_event_date": "2024-03-08",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false,
+   "identifiers": {
+    "rm:research_project_id": [
+     "44397623"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/44397443",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "44397443",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-01-05T05:30:59Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-01-05T05:31:20Z",
+   "presentation_title": {
+    "ja": "インパルス応答測定原理を応用した中耳インピーダンスメーターの改良",
+    "en": "Improvement of middle-ear impedance meter based on principles of impulse response measurement"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ],
+    "en": [
+     {
+      "name": "T. Toya"
+     },
+     {
+      "name": "R. Nagai"
+     },
+     {
+      "name": "H. Sugimoto"
+     },
+     {
+      "name": "M. Murakoshi"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会第150回（2023年秋季）研究発表会",
+    "en": "150th (2023 Autumn) Meeting of Acoust. Soc. Jpn."
+   },
+   "publication_date": "2023-09-26",
+   "from_event_date": "2023-09-26",
+   "to_event_date": "2023-09-28",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42880051",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42880051",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-07-23T07:21:43Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-07-23T07:21:43Z",
+   "presentation_title": {
+    "ja": "複素スパースベイズ推定に基づく小規模マイクロホンアレイによる音源測距に関する考察"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "有泉 千太"
+     },
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "小澤 賢司"
+     }
+    ]
+   },
+   "event": {
+    "ja": "音学シンポジウム2023"
+   },
+   "publication_date": "2023-06-23",
+   "from_event_date": "2023-06-23",
+   "to_event_date": "2023-06-24",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580217",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580217",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:28:22Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:28:22Z",
+   "presentation_title": {
+    "ja": "正常耳に対する周波数掃引インピーダンス（SFI）計測"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第35回バイオエンジニアリング講演会"
+   },
+   "publication_date": "2023-06-04",
+   "from_event_date": "2023-06-03",
+   "to_event_date": "2023-06-04",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580210",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580210",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:26:37Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:26:37Z",
+   "presentation_title": {
+    "ja": "周波数掃引インピーダンス（SFI）に基づく耳小骨離断・固着耳の動特性分布"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第35回バイオエンジニアリング講演会"
+   },
+   "publication_date": "2023-06-04",
+   "from_event_date": "2023-06-03",
+   "to_event_date": "2023-06-04",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580235",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580235",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:30:16Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:30:16Z",
+   "presentation_title": {
+    "ja": "子音強調処理の改良による骨導提示音声の了解度改善"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "王思成"
+     },
+     {
+      "name": "上江洲安史"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2023年春季研究発表会"
+   },
+   "publication_date": "2023-03-16",
+   "from_event_date": "2023-03-15",
+   "to_event_date": "2023-03-17",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580238",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580238",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:31:57Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:31:57Z",
+   "presentation_title": {
+    "ja": "骨導提示音による気導提示音の抑圧効果"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "井上隼輔"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "上江洲安史"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2023年春季研究発表会"
+   },
+   "publication_date": "2023-03-15",
+   "from_event_date": "2023-03-15",
+   "to_event_date": "2023-03-17",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580242",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580242",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:33:50Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:36:50Z",
+   "presentation_title": {
+    "ja": "理工系研究シーズの医療機器開発の促進事例；新規の中耳機能測定技術"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "渡部良広"
+     },
+     {
+      "name": "玉井聡子"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "武居渡"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本臨床試験学会第14回学術集会総会"
+   },
+   "publication_date": "2023-02-09",
+   "from_event_date": "2023-02-09",
+   "to_event_date": "2023-02-10",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580245",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580245",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:36:18Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:36:18Z",
+   "presentation_title": {
+    "ja": "周波数掃引インピーダンス（SFI）に基づく種々の中耳様態に対する中耳動特性"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "曲師綾香"
+     },
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第33回バイオフロンティア講演会"
+   },
+   "publication_date": "2022-12-17",
+   "from_event_date": "2022-12-17",
+   "to_event_date": "2022-12-18",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580244",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580244",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:35:01Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:35:01Z",
+   "presentation_title": {
+    "ja": "中耳動特性計測装置（SFIメーター）のための新規イヤプローブの開発"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "小久保拓磨"
+     },
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第33回バイオフロンティア講演会"
+   },
+   "publication_date": "2022-12-17",
+   "from_event_date": "2022-12-17",
+   "to_event_date": "2022-12-18",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580247",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580247",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:38:31Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:38:31Z",
+   "presentation_title": {
+    "ja": "骨導ヘッドホンによる提示音声の単語了解度改善法"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "ZHU Wenyu"
+     },
+     {
+      "name": "小林まおり"
+     },
+     {
+      "name": "中村健一"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本騒音制御工学会2022年秋季研究発表会"
+   },
+   "publication_date": "2022-11-09",
+   "from_event_date": "2022-11-09",
+   "to_event_date": "2022-11-10",
+   "invited": true,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "invited_oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580324",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580324",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:26:50Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:26:50Z",
+   "presentation_title": {
+    "ja": "骨導提示音による気導提示音の抑圧に関する検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "井上隼輔"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "2022年度電気・情報関係学会北陸支部連合大会"
+   },
+   "publication_date": "2022-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580248",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580248",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:39:49Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:39:49Z",
+   "presentation_title": {
+    "ja": "自己聴取音における音色と音高の印象に関する調査"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "森田翔太"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2022年秋季研究発表会"
+   },
+   "publication_date": "2022-09",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580321",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580321",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:26:06Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:26:06Z",
+   "presentation_title": {
+    "ja": "中耳動特性に基づく伝音難聴診断装置の開発"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "村越道生"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "曲師綾香"
+     },
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "第61回日本生体医工学会大会"
+   },
+   "publication_date": "2022-06",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580319",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580319",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:25:18Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:25:18Z",
+   "presentation_title": {
+    "ja": "正常な中耳機能を持つ成人に対しての周波数掃引インピーダンス（SFI）計測"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "曲師綾香"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第34回バイオエンジニアリング講演会"
+   },
+   "publication_date": "2022-06",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580316",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580316",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:24:19Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:24:19Z",
+   "presentation_title": {
+    "ja": "伝音難聴患者を対象とした周波数掃引インピーダンス（SFI）計測"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "曲師綾香"
+     },
+     {
+      "name": "中川光"
+     },
+     {
+      "name": "永井理紗"
+     },
+     {
+      "name": "杉本寿史"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本機械学会第34回バイオエンジニアリング講演会"
+   },
+   "publication_date": "2022-06",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580314",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580314",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:23:22Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:23:22Z",
+   "presentation_title": {
+    "ja": "子音強調による骨導提示音声の了解度の改善"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "シュブンウ"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "中村健一"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2022年春季研究発表会"
+   },
+   "publication_date": "2022-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580313",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580313",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:22:48Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:22:48Z",
+   "presentation_title": {
+    "ja": "骨導デバイスによる提示音声の了解度改善法"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "小林まおり"
+     },
+     {
+      "name": "中村健一"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2022年春季研究発表会"
+   },
+   "publication_date": "2022-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580310",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580310",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:21:59Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:21:59Z",
+   "presentation_title": {
+    "ja": "発話時の骨導伝達特性の測定における気導音遮断の検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "BIRKHOLZ Peter"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2021年秋季研究発表会"
+   },
+   "publication_date": "2021-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580309",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580309",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:21:16Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:21:16Z",
+   "presentation_title": {
+    "ja": "日本語非母語話者を対象とした雑音環境下における骨導呈示音声の了解度改善法の効果"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "ZHU WENYU"
+     },
+     {
+      "name": "藤田周平"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "2021年度電気・情報関係学会北陸支部連合大会"
+   },
+   "publication_date": "2021-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580308",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580308",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:20:32Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:20:32Z",
+   "presentation_title": {
+    "ja": "自己聴取音の印象に関する個人性の調査"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "森田翔太"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2021年春季研究発表会"
+   },
+   "publication_date": "2021-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580307",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580307",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:19:34Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:19:34Z",
+   "presentation_title": {
+    "ja": "雑音環境下における骨導呈示音声の単語了解度"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "藤田周平"
+     },
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "2020年度電気・情報関係学会北陸支部連合大会"
+   },
+   "publication_date": "2020-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580306",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580306",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:18:41Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:18:41Z",
+   "presentation_title": {
+    "ja": "話者自身が知覚する音声における骨導音声の伝達割合"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "BIRKHOLZ Peter"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2020年春季研究発表会"
+   },
+   "publication_date": "2020-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580303",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580303",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:17:56Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:17:56Z",
+   "presentation_title": {
+    "ja": "気導音と骨導音を考慮した音声合成モデルの検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "森田翔太"
+     },
+     {
+      "name": "川本大貴"
+     },
+     {
+      "name": "鳥谷輝樹"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2019年秋季研究発表会"
+   },
+   "publication_date": "2019-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580302",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580302",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:17:02Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:17:02Z",
+   "presentation_title": {
+    "ja": "骨導音声の外耳道内放射特性の推定"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "BIRKHOLZ Peter"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2019年秋季研究発表会"
+   },
+   "publication_date": "2019-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580301",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580301",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:16:08Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:16:08Z",
+   "presentation_title": {
+    "ja": "口腔内の音源を用いた骨導音声の伝達特性の分析"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "BIRKHOLZ Peter"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2019年春季研究発表会"
+   },
+   "publication_date": "2019-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580297",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580297",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:13:55Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:13:55Z",
+   "presentation_title": {
+    "ja": "長時間平均スペクトルに着目した骨導音声の伝達特性の分析"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "BIRKHOLZ Peter"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2018年春季研究発表会"
+   },
+   "publication_date": "2018-03",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580294",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580294",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:12:58Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:12:58Z",
+   "presentation_title": {
+    "ja": "話者が知覚する骨導音声の音響的特徴の検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2017年秋季研究発表会"
+   },
+   "publication_date": "2017-09",
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580258",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580258",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:45:04Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:45:04Z",
+   "presentation_title": {
+    "ja": "気導・骨導の遅延聴覚フィードバックにおける呈示方法の検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "日本音響学会2017年春季研究発表会講演論文集"
+   },
+   "publication_date": "2017-03",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580257",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580257",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:43:35Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:43:35Z",
+   "presentation_title": {
+    "ja": "心理物理的同調曲線による抑圧性マスキングの検討"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "宮内良太"
+     },
+     {
+      "name": "鵜木祐史"
+     }
+    ]
+   },
+   "event": {
+    "ja": "平成27年度電気関係学会北陸支部連合大会"
+   },
+   "publication_date": "2015-09",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "oral_presentation",
+   "rm:is_open_access": false
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations/42580255",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+   "rm:id": "42580255",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T15:42:39Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T15:42:39Z",
+   "presentation_title": {
+    "ja": "Notes-nugetter: Twitterを用いた不可逆的・集合的音楽創作システム"
+   },
+   "presenters": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     },
+     {
+      "name": "福成毅"
+     },
+     {
+      "name": "西本一志"
+     }
+    ]
+   },
+   "event": {
+    "ja": "インタラクション2015（第19回情報処理学会シンポジウム）"
+   },
+   "publication_date": "2015-03",
+   "invited": false,
+   "languages": [
+    "jpn"
+   ],
+   "presentation_type": "poster_presentation",
+   "rm:is_open_access": false
+  }
+ ]
+}

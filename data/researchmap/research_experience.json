@@ -1,0 +1,152 @@
+{
+ "total_items": 5,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience/49681407",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+   "rm:id": "49681407",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2025-04-03T08:44:03Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-04-03T08:44:03Z",
+   "from_date": "2025-04",
+   "to_date": "9999",
+   "rm:institution_code": "0244030000",
+   "affiliation": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "section": {
+    "ja": "大学院総合研究部工学域",
+    "en": "Graduate Faculty of Interdisciplinary Research Faculty of Engineering"
+   },
+   "job": {
+    "ja": "助教",
+    "en": "Assistant Professor"
+   },
+   "address_country": "JPN"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience/42579897",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+   "rm:id": "42579897",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T12:55:08Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2025-04-03T08:43:10Z",
+   "from_date": "2023-04",
+   "to_date": "2025-03",
+   "rm:institution_code": "0244030000",
+   "affiliation": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "section": {
+    "ja": "大学院総合研究部工学域",
+    "en": "Graduate Faculty of Interdisciplinary Research Faculty of Engineering"
+   },
+   "job": {
+    "ja": "特任助教",
+    "en": "Project Assistant Professor"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience/42579896",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+   "rm:id": "42579896",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T12:53:32Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T12:53:32Z",
+   "from_date": "2022-01",
+   "to_date": "2023-03",
+   "rm:institution_code": "0236035000",
+   "affiliation": {
+    "ja": "金沢大学",
+    "en": "Kanazawa University"
+   },
+   "section": {
+    "ja": "理工研究域 フロンティア工学系",
+    "en": "Institute of Science and Engineering Faculty of Frontier Engineering"
+   },
+   "job": {
+    "ja": "博士研究員",
+    "en": "Post-Doctoral Researcher"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience/42579888",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+   "rm:id": "42579888",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T12:50:03Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T12:50:03Z",
+   "from_date": "2021-04",
+   "to_date": "2021-12",
+   "rm:institution_code": "0488001000",
+   "affiliation": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "section": {
+    "ja": "情報科学系",
+    "en": "School of Information Science"
+   },
+   "job": {
+    "ja": "研究員",
+    "en": "Post-Doctoral Researcher"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience/42579883",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+   "rm:id": "42579883",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T12:48:14Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T12:48:14Z",
+   "from_date": "2017-04",
+   "to_date": "2020-03",
+   "rm:institution_code": "9486000000",
+   "affiliation": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "job": {
+    "ja": "特別研究員（DC1）",
+    "en": "Research Fellow (DC1)"
+   }
+  }
+ ]
+}

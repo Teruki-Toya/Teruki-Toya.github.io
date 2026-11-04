@@ -1,0 +1,4983 @@
+{
+ "@context": "https://api.researchmap.jp/researcher.jsonld",
+ "@id": "https://api.researchmap.jp/t-toya?format=json",
+ "@type": "researchers",
+ "rm:user_id": "R000050523",
+ "rm:creator_id": "R000050523",
+ "rm:creator_type": "myself",
+ "rm:created": "2023-04-13T02:26:39Z",
+ "rm:modifier_id": "R000050523",
+ "rm:modifier_type": "myself",
+ "rm:modified": "2026-08-28T07:00:01Z",
+ "permalink": "t-toya",
+ "family_name": {
+  "ja": "鳥谷",
+  "ja-Kana": "トヤ",
+  "en": "Toya"
+ },
+ "given_name": {
+  "ja": "輝樹",
+  "ja-Kana": "テルキ",
+  "en": "Teruki"
+ },
+ "display_name_kana": "disclosed",
+ "display_nickname": "disclosed",
+ "image": "https://researchmap.jp/t-toya/avatar.jpg",
+ "display_image": "disclosed",
+ "display_contact_point": "disclosed",
+ "affiliations": [
+  {
+   "affiliation": {
+    "ja": "山梨大学",
+    "en": "University of Yamanashi"
+   },
+   "section": {
+    "ja": "大学院総合研究部工学域",
+    "en": "Graduate Faculty of Interdisciplinary Research Faculty of Engineering"
+   },
+   "job": {
+    "ja": "助教",
+    "en": "Assistant Professor"
+   },
+   "display_affiliation": "disclosed",
+   "display_job": "disclosed",
+   "rm:institution_code": "0244030000"
+  }
+ ],
+ "degrees": [
+  {
+   "degree": {
+    "ja": "博士（情報科学）",
+    "en": "Ph.D. in Information Science"
+   },
+   "degree_institution": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "degree_date": "2021-03",
+   "display_degree": "disclosed",
+   "rm:institution_code": "0488000000"
+  },
+  {
+   "degree": {
+    "ja": "修士（情報科学）",
+    "en": "M.S. in Information Science"
+   },
+   "degree_institution": {
+    "ja": "北陸先端科学技術大学院大学",
+    "en": "Japan Advanced Institute of Science and Technology"
+   },
+   "degree_date": "2016-09",
+   "display_degree": "disclosed",
+   "rm:institution_code": "0488000000"
+  }
+ ],
+ "display_profile": "disclosed",
+ "display_url": "disclosed",
+ "identifiers": {
+  "erad_id": [
+   "00911223"
+  ],
+  "j_global_id": [
+   "202301004455903622"
+  ]
+ },
+ "rm:erad_id_verified": false,
+ "rm:orc_id_verified": false,
+ "display_erad_id": "disclosed",
+ "display_orc_id": "closed",
+ "display_researcher_id": "disclosed",
+ "display_j_global_id": "disclosed",
+ "see_also": [
+  {
+   "label": "j_global",
+   "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202301004455903622"
+  }
+ ],
+ "@graph": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_interests",
+   "@type": "research_interests",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 4,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_interests/42580344",
+     "@type": "research_interests",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+     "rm:id": "42580344",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:43:15Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:43:15Z",
+     "keyword": {
+      "ja": "骨導音知覚",
+      "en": "Bone-conduction hearing"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_interests/42580346",
+     "@type": "research_interests",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+     "rm:id": "42580346",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:49:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:49:45Z",
+     "keyword": {
+      "ja": "自己聴取音の伝達過程",
+      "en": "Transmission process of one's own voice"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_interests/42580345",
+     "@type": "research_interests",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+     "rm:id": "42580345",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:46:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:46:45Z",
+     "keyword": {
+      "ja": "中耳動特性計測",
+      "en": "Measurement of middle-ear dynamic characteristics"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_interests/42580348",
+     "@type": "research_interests",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+     "rm:id": "42580348",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:52:22Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:52:22Z",
+     "keyword": {
+      "ja": "音声信号処理",
+      "en": "Speech signal processing"
+     }
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_areas",
+   "@type": "research_areas",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 3,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_areas/42580352",
+     "@type": "research_areas",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+     "rm:id": "42580352",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:53:22Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:53:22Z",
+     "discipline_number": "A289",
+     "item_number": "A61010",
+     "discipline": {
+      "ja": "情報通信",
+      "en": "Informatics"
+     },
+     "research_field": {
+      "ja": "知覚情報処理",
+      "en": "Perceptual information processing"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_areas/42580356",
+     "@type": "research_areas",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+     "rm:id": "42580356",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:56:54Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:56:54Z",
+     "discipline_number": "A289",
+     "item_number": "A61030",
+     "discipline": {
+      "ja": "情報通信",
+      "en": "Informatics"
+     },
+     "research_field": {
+      "ja": "知能情報学",
+      "en": "Intelligent informatics"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_areas/42580355",
+     "@type": "research_areas",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+     "rm:id": "42580355",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:54:47Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:54:47Z",
+     "discipline_number": "A189",
+     "item_number": "A90110",
+     "discipline": {
+      "ja": "ライフサイエンス",
+      "en": "Life sciences"
+     },
+     "research_field": {
+      "ja": "生体医工学",
+      "en": "Biomedical engineering"
+     }
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_experience",
+   "@type": "research_experience",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 5,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_experience/49681407",
+     "@type": "research_experience",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+     "rm:id": "49681407",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-04-03T08:44:03Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-04-03T08:44:03Z",
+     "from_date": "2025-04",
+     "to_date": "9999",
+     "rm:institution_code": "0244030000",
+     "affiliation": {
+      "ja": "山梨大学",
+      "en": "University of Yamanashi"
+     },
+     "section": {
+      "ja": "大学院総合研究部工学域",
+      "en": "Graduate Faculty of Interdisciplinary Research Faculty of Engineering"
+     },
+     "job": {
+      "ja": "助教",
+      "en": "Assistant Professor"
+     },
+     "address_country": "JPN"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_experience/42579897",
+     "@type": "research_experience",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+     "rm:id": "42579897",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T12:55:08Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-04-03T08:43:10Z",
+     "from_date": "2023-04",
+     "to_date": "2025-03",
+     "rm:institution_code": "0244030000",
+     "affiliation": {
+      "ja": "山梨大学",
+      "en": "University of Yamanashi"
+     },
+     "section": {
+      "ja": "大学院総合研究部工学域",
+      "en": "Graduate Faculty of Interdisciplinary Research Faculty of Engineering"
+     },
+     "job": {
+      "ja": "特任助教",
+      "en": "Project Assistant Professor"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_experience/42579896",
+     "@type": "research_experience",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+     "rm:id": "42579896",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T12:53:32Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T12:53:32Z",
+     "from_date": "2022-01",
+     "to_date": "2023-03",
+     "rm:institution_code": "0236035000",
+     "affiliation": {
+      "ja": "金沢大学",
+      "en": "Kanazawa University"
+     },
+     "section": {
+      "ja": "理工研究域 フロンティア工学系",
+      "en": "Institute of Science and Engineering Faculty of Frontier Engineering"
+     },
+     "job": {
+      "ja": "博士研究員",
+      "en": "Post-Doctoral Researcher"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_experience/42579888",
+     "@type": "research_experience",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+     "rm:id": "42579888",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T12:50:03Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T12:50:03Z",
+     "from_date": "2021-04",
+     "to_date": "2021-12",
+     "rm:institution_code": "0488001000",
+     "affiliation": {
+      "ja": "北陸先端科学技術大学院大学",
+      "en": "Japan Advanced Institute of Science and Technology"
+     },
+     "section": {
+      "ja": "情報科学系",
+      "en": "School of Information Science"
+     },
+     "job": {
+      "ja": "研究員",
+      "en": "Post-Doctoral Researcher"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_experience/42579883",
+     "@type": "research_experience",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_experience",
+     "rm:id": "42579883",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T12:48:14Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T12:48:14Z",
+     "from_date": "2017-04",
+     "to_date": "2020-03",
+     "rm:institution_code": "9486000000",
+     "affiliation": {
+      "ja": "日本学術振興会",
+      "en": "Japan Society for the Promotion of Science"
+     },
+     "job": {
+      "ja": "特別研究員（DC1）",
+      "en": "Research Fellow (DC1)"
+     }
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/education",
+   "@type": "education",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 3,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/education/42579913",
+     "@type": "education",
+     "@reverse": "https://api.researchmap.jp/t-toya/education",
+     "rm:id": "42579913",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:07:19Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:12:27Z",
+     "from_date": "2016-10",
+     "to_date": "2021-03",
+     "rm:institution_code": "0488000000",
+     "affiliation": {
+      "ja": "北陸先端科学技術大学院大学",
+      "en": "Japan Advanced Institute of Science and Technology"
+     },
+     "department": {
+      "ja": "先端科学技術研究科",
+      "en": "Graduate School of Advanced Science and Technology"
+     },
+     "course": {
+      "ja": "博士後期課程",
+      "en": "Doctoral Program"
+     },
+     "note": {
+      "ja": "（2021.03 博士（情報科学））"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/education/42579909",
+     "@type": "education",
+     "@reverse": "https://api.researchmap.jp/t-toya/education",
+     "rm:id": "42579909",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:06:04Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:11:13Z",
+     "from_date": "2014-04",
+     "to_date": "2016-09",
+     "rm:institution_code": "0488000000",
+     "affiliation": {
+      "ja": "北陸先端科学技術大学院大学",
+      "en": "Japan Advanced Institute of Science and Technology"
+     },
+     "department": {
+      "ja": "情報科学研究科",
+      "en": "School of Information Science"
+     },
+     "course": {
+      "ja": "博士前期課程",
+      "en": "Master's Program"
+     },
+     "note": {
+      "ja": "（2016.09 修士（情報科学））"
+     }
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/education/42579906",
+     "@type": "education",
+     "@reverse": "https://api.researchmap.jp/t-toya/education",
+     "rm:id": "42579906",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:04:38Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:04:38Z",
+     "from_date": "2010-04",
+     "to_date": "2014-03",
+     "rm:institution_code": "0216000000",
+     "affiliation": {
+      "ja": "電気通信大学",
+      "en": "The University of Electro-Communications"
+     },
+     "department": {
+      "ja": "情報理工学部",
+      "en": "Department of Informatics and Engineering"
+     },
+     "course": {
+      "ja": "総合情報学科",
+      "en": "Faculty of Informatics"
+     }
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 6,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/48412035",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "48412035",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-11-11T00:18:17Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-11-11T00:19:16Z",
+     "award_name": {
+      "ja": "Silver Prize - IEEE GCCE 2024 Excellent Paper Awards",
+      "en": "Silver Prize - IEEE GCCE 2024 Excellent Paper Awards"
+     },
+     "winners": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Taichi Kouno"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Taichi Kouno"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "award_title": {
+      "ja": "Towards Mimicking Speakers' Own Perceived Voice by Subjective Evaluation Considering Bone-Conduction Transmission Characteristics",
+      "en": "Towards Mimicking Speakers' Own Perceived Voice by Subjective Evaluation Considering Bone-Conduction Transmission Characteristics"
+     },
+     "association": {
+      "ja": "2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)",
+      "en": "2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)"
+     },
+     "award_date": "2024-10",
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253706"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253706",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/45584170",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "45584170",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-02-13T04:54:49Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-13T04:54:49Z",
+     "award_name": {
+      "ja": "粟屋 潔学術奨励賞",
+      "en": "Awaya Prize Young Researcher Award"
+     },
+     "winners": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       }
+      ]
+     },
+     "award_title": {
+      "ja": "インパルス応答測定原理を応用した中耳インピーダンスメーターの改良",
+      "en": "Improvement of middle ear impedance meter based on principles of impulse response measurement"
+     },
+     "association": {
+      "ja": "日本音響学会",
+      "en": "Acoustical Society of Japan"
+     },
+     "award_date": "2024-01",
+     "identifiers": {
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/42579936",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "42579936",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:17:57Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:17:57Z",
+     "award_name": {
+      "ja": "学生研究奨励賞",
+      "en": "Student-Research Encouraging Prize"
+     },
+     "award_title": {
+      "ja": "気導・骨導の遅延聴覚フィードバックが発話に与える影響"
+     },
+     "association": {
+      "ja": "日本音響学会電気音響研究会",
+      "en": "Workshop for Electroacoustics, Acoustical Society of Japan"
+     },
+     "award_date": "2016-10"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/42579954",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "42579954",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:22:17Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:22:17Z",
+     "award_name": {
+      "en": "NCSP'16 Student Paper Award"
+     },
+     "award_title": {
+      "en": "Study on effects of speech production during delayed auditory feedback for air-conducted and bone-conducted speech"
+     },
+     "association": {
+      "en": "Research Institute of Signal Processing"
+     },
+     "award_date": "2016-03"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/42579942",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "42579942",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:20:40Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:20:40Z",
+     "award_name": {
+      "ja": "優秀学生賞",
+      "en": "Best Student Award"
+     },
+     "association": {
+      "ja": "電子情報通信学会北陸支部",
+      "en": "Hokuriku Branch, The Institute of Electronics, Information and Communication Engineers"
+     },
+     "award_date": "2016-03"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/awards/42579987",
+     "@type": "awards",
+     "@reverse": "https://api.researchmap.jp/t-toya/awards",
+     "rm:id": "42579987",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:29:47Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T13:29:47Z",
+     "award_name": {
+      "ja": "優秀論文発表賞",
+      "en": "Best Paper & Presentation Award"
+     },
+     "award_title": {
+      "ja": "心理物理的同調曲線による抑圧性マスキングの検討",
+      "en": "Experimental study on suppressive masking based on psychophysical tuning curve"
+     },
+     "association": {
+      "ja": "日本音響学会北陸支部",
+      "en": "Hokuriku Branch, Acoustical Society of Japan"
+     },
+     "award_date": "2015-11"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/published_papers",
+   "@type": "published_papers",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 30,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/54765849",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "54765849",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T05:41:31Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:57:39Z",
+     "paper_title": {
+      "en": "MBCTN: A Multi-band Convolutional Tensor Network for Speech Imagery EEG Decoding"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Jianghan Yan"
+       },
+       {
+        "name": "Xuanyu Jin"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Wanzeng Kong"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "publisher": {
+      "en": "Springer Nature Singapore"
+     },
+     "publication_date": "2026-06-01",
+     "publication_name": {
+      "en": "Communications in Computer and Information Science"
+     },
+     "starting_page": "204",
+     "ending_page": "219",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "in_book",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1007/978-981-95-8978-4_16"
+      ],
+      "issn": [
+       "1865-0929"
+      ],
+      "e_issn": [
+       "1865-0937"
+      ],
+      "isbn": [
+       "9789819589777",
+       "9789819589784"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1007/978-981-95-8978-4_16",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://link.springer.com/content/pdf/10.1007/978-981-95-8978-4_16",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51849616",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "51849616",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-12-13T08:05:12Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:35:55Z",
+     "paper_title": {
+      "ja": "Detection of ossicular chain pathologies using sweep frequency impedance with short-time stimulation and adaptive noise reduction",
+      "en": "Detection of ossicular chain pathologies using sweep frequency impedance with short-time stimulation and adaptive noise reduction"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Wataru Takei"
+       },
+       {
+        "name": "Ryuichi Nakajima"
+       },
+       {
+        "name": "Tomokazu Yoshizaki"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ],
+      "en": [
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Wataru Takei"
+       },
+       {
+        "name": "Ryuichi Nakajima"
+       },
+       {
+        "name": "Tomokazu Yoshizaki"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "description": {
+      "en": "Conductive hearing loss typically results from ossicular chain abnormalities, commonly ossicular fixation or separation. While a precise diagnosis is useful for surgeons, distinguishing between fixation and separation before surgery is challenging. In our previous studies, we reported that sweep frequency impedance (SFI) effectively detects such middle-ear pathologies. However, due to the prolonged sound stimuli, SFI exhibited weaker resistance to noise. In this study, we introduce a novel method using short-time stimulation and adaptive noise reduction to improve SFI performance. The method was applied to both healthy individuals and patients, and a support vector machine was employed to evaluate its accuracy in distinguishing fixation and separation in clinical practice. The proposed SFI yielded results consistent with the original SFI meter but significantly shortened the evaluation time to within 200 ms. Classification results indicate that the SFI achieved accuracies of 98% and 83% for detecting ossicular separation and fixation, respectively. In contrast, such accuracies of traditional tympanometry were 70% and 49% for the separation and fixation. Additionally, the study indicates that gentle lullabies can serve as effective acoustic stimuli. These results suggest that our new SFI has potential for middle-ear testing across all age groups, from newborns to the elderly."
+     },
+     "publisher": {
+      "en": "Acoustical Society of America (ASA)"
+     },
+     "publication_date": "2025-12-01",
+     "publication_name": {
+      "ja": "The Journal of the Acoustical Society of America",
+      "en": "The Journal of the Acoustical Society of America"
+     },
+     "volume": "158",
+     "number": "6",
+     "starting_page": "4321",
+     "ending_page": "4334",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1121/10.0041762"
+      ],
+      "e_issn": [
+       "1520-8524"
+      ],
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1121/10.0041762",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://pubs.aip.org/asa/jasa/article-pdf/158/6/4321/20820667/4321_1_10.0041762.pdf",
+       "label": "url",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/51526064",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "51526064",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-10-24T06:46:39Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:36:06Z",
+     "paper_title": {
+      "ja": "Implementing a Real-Time ISSS Noise Suppression Method in a Single-Board Computer",
+      "en": "Implementing a Real-Time ISSS Noise Suppression Method in a Single-Board Computer"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yugo Haraguchi"
+       },
+       {
+        "name": "Shunta Hanagata"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yugo Haraguchi"
+       },
+       {
+        "name": "Shunta Hanagata"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "publication_date": "2025-09",
+     "publication_name": {
+      "ja": "Proc. 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE2025)",
+      "en": "Proc. 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE2025)"
+     },
+     "starting_page": "626",
+     "ending_page": "627",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "international_conference_proceedings",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/50583497",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "50583497",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-07-09T13:41:05Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-07-09T13:41:38Z",
+     "paper_title": {
+      "ja": "Towards an acoustic-measurement-based middle ear diagnosis system - Evaluation of normal ears under varying static pressure",
+      "en": "Towards an acoustic-measurement-based middle ear diagnosis system - Evaluation of normal ears under varying static pressure"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yuto Hirabayashi"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yuto Hirabayashi"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2025-07-06",
+     "publication_name": {
+      "ja": "Proc. 31st International Congress on Sound and Vibration (ICSV31)",
+      "en": "Proc. 31st International Congress on Sound and Vibration (ICSV31)"
+     },
+     "number": "739",
+     "starting_page": "1",
+     "ending_page": "8",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "international_conference_proceedings",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/50256746",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "50256746",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-05-27T07:36:49Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-05-27T07:36:54Z",
+     "paper_title": {
+      "ja": "Machine-learning based classification of middle-ear fixation and separation using sweep frequency impedance information reflecting middle-ear dynamics",
+      "en": "Machine-learning based classification of middle-ear fixation and separation using sweep frequency impedance information reflecting middle-ear dynamics"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Wataru Takei"
+       },
+       {
+        "name": "Ryuichi Nakajima"
+       },
+       {
+        "name": "Kiyoshi Murakami"
+       },
+       {
+        "name": "Tomokazu Yoshizaki"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Wataru Takei"
+       },
+       {
+        "name": "Ryuichi Nakajima"
+       },
+       {
+        "name": "Kiyoshi Murakami"
+       },
+       {
+        "name": "Tomokazu Yoshizaki"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "description": {
+      "en": "The sweep frequency impedance (SFI) meter is an apparatus that delivers a frequency-sweeping sound into the ear canal and evaluates dynamic characteristics of the middle ear based on changes in sound pressure in the ear canal. We have renewed the SFI meter for detecting sound pressure variations with higher signal-to-noise ratio. Our previous studies proposed a potential to utilize it for diagnosis of ossicular fixation and separation using a two-dimensional (2D) mobility map of the middle ear derived from two features extracted from sound pressure variations. However, a concrete classification criterion in this 2D information is necessary for clinical applications since the diagnostic process is assumed to be challenging due to pronounced interphasic overlaps of the map. We conducted the SFI measurement with normal and impaired ears using the renewed SFI meter and proposed a machine-learning–based prediction method of middle-ear dysfunctions in 2D characteristics. We showed that ossicular chain fixation was predicted with an accuracy of 0.8 and an area under the receiver operating characteristic curve (AUC) of 0.86 and ossicular chain separation with an accuracy of 1.0 and AUC of 1.0. The proposed method has the potential to predict the middle-ear dysfunctions more accurately than a conventional tympanometry method."
+     },
+     "publisher": {
+      "en": "Acoustical Society of America (ASA)"
+     },
+     "publication_date": "2025-05-13",
+     "publication_name": {
+      "ja": "The Journal of the Acoustical Society of America",
+      "en": "The Journal of the Acoustical Society of America"
+     },
+     "volume": "157",
+     "number": "5",
+     "starting_page": "3624",
+     "ending_page": "3637",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": true,
+     "identifiers": {
+      "doi": [
+       "10.1121/10.0036639"
+      ],
+      "e_issn": [
+       "1520-8524"
+      ],
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1121/10.0036639",
+       "is_downloadable": true
+      },
+      {
+       "@id": "https://pubs.aip.org/asa/jasa/article-pdf/157/5/3624/20520054/3624_1_10.0036639.pdf",
+       "label": "url",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/48412020",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "48412020",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-11-11T00:15:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-11-11T00:15:59Z",
+     "paper_title": {
+      "ja": "Towards mimicking speakers' own perceived voice by subjective evaluation considering bone-conduction transmission characteristics",
+      "en": "Towards mimicking speakers' own perceived voice by subjective evaluation considering bone-conduction transmission characteristics"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Taichi Kouno"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Taichi Kouno"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "publication_date": "2024-10",
+     "publication_name": {
+      "ja": "Proc. 2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)",
+      "en": "Proc. 2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)"
+     },
+     "starting_page": "316",
+     "ending_page": "317",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "international_conference_proceedings",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253706"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253706",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/45589261",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "45589261",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "ai:assign_based_internal_feeds",
+     "rm:creator_type": "ai",
+     "rm:created": "2024-02-14T04:00:52Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-14T11:10:36Z",
+     "paper_title": {
+      "en": "Wideband frequency impedance for diagnosis of ossicular chain abnormality"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yoshihiro Watanabe"
+       },
+       {
+        "name": "Wataru Takei"
+       },
+       {
+        "name": "Risa Nagai"
+       },
+       {
+        "name": "Yasunori Donjo"
+       },
+       {
+        "name": "Ryosei Motoo"
+       },
+       {
+        "name": "Manabu Inaba"
+       },
+       {
+        "name": "Tomokazu Yoshizaki"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "publisher": {
+      "en": "Informa UK Limited"
+     },
+     "publication_date": "2023-12-02",
+     "publication_name": {
+      "en": "Acta Oto-Laryngologica"
+     },
+     "volume": "143",
+     "number": "11-12",
+     "starting_page": "958",
+     "ending_page": "964",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1080/00016489.2023.2292168"
+      ],
+      "issn": [
+       "0001-6489"
+      ],
+      "e_issn": [
+       "1651-2251"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1080/00016489.2023.2292168",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://www.tandfonline.com/doi/pdf/10.1080/00016489.2023.2292168",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/44323790",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "44323790",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "ai:assign_based_internal_feeds",
+     "rm:creator_type": "ai",
+     "rm:created": "2023-12-23T03:33:00Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:36:18Z",
+     "paper_title": {
+      "en": "Study on suppression effect of air-conducted sound by bone-conducted sound"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Shunsuke INOUE"
+       },
+       {
+        "name": "Teruki TOYA"
+       },
+       {
+        "name": "Yasufumi UEZU"
+       },
+       {
+        "name": "Masashi UNOKI"
+       }
+      ]
+     },
+     "description": {
+      "en": "This paper proposes a method for suppressing air-conducted (AC) sound by presenting bone-conducted (BC) sound. First, the amplitude and phase of BC tones at six frequencies (250, 500, 1000, 2000, 4000, and 8000 Hz) were examined by using a method of limits to suppress AC tones presented via earphones. On the basis of the results of the first experiment, finite-impulse-response (FIR) filters, dependent upon participants, were then designed as \"a compensation filter\" to cancel out AC sound by presenting BC sound. Next, whether or not AC complex tones presented via earphones could be suppressed by simultaneously presenting BC complex tones compensated for by FIR filtering was investigated. Finally, whether or not this method could be applied to suppress stationary noise was also investigated. From these investigations, the proposed method was found to adequately suppress AC complex tones, and the average amounts of suppression for the AC and AC complex tones were approximately 5 and 1 dB, respectively. In addition, it was also shown that the proposed method can be used to suppress AC stationary noise but not greatly."
+     },
+     "publisher": {
+      "en": "Institute of Noise Control Engineering (INCE)"
+     },
+     "publication_date": "2023-11-30",
+     "publication_name": {
+      "en": "INTER-NOISE and NOISE-CON Congress and Conference Proceedings"
+     },
+     "volume": "268",
+     "number": "3",
+     "starting_page": "5479",
+     "ending_page": "5489",
+     "referee": false,
+     "invited": true,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.3397/in_2023_0778"
+      ],
+      "issn": [
+       "0736-2935"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.3397/in_2023_0778",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://www.ingentaconnect.com/content/ince/incecp/2023/00000268/00000003/art00053",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/44397402",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "44397402",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-01-05T05:27:16Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-14T11:12:59Z",
+     "paper_title": {
+      "ja": "Towards Non-Invasive Diagnosis System for Middle-Ear Dysfunctions Based on Principles of Impulse Response Measurement",
+      "en": "Towards Non-Invasive Diagnosis System for Middle-Ear Dysfunctions Based on Principles of Impulse Response Measurement"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Risa Nagai"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Risa Nagai"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "publisher": {
+      "en": "IEEE"
+     },
+     "publication_date": "2023-10-10",
+     "publication_name": {
+      "ja": "Proc. 2023 IEEE 12th Global Conference on Consumer Electronics (GCCE)",
+      "en": "Proc. 2023 IEEE 12th Global Conference on Consumer Electronics (GCCE)"
+     },
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "invited": false,
+     "published_paper_type": "international_conference_proceedings",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1109/gcce59613.2023.10315502"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1109/gcce59613.2023.10315502",
+       "is_downloadable": false
+      },
+      {
+       "@id": "http://xplorestaging.ieee.org/ielx7/10315246/10315146/10315502.pdf?arnumber=10315502",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42579997",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42579997",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:35:00Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-14T11:11:06Z",
+     "paper_title": {
+      "en": "Methods for improving word intelligibility of bone-conducted speech by using bone-conduction headphones"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Maori Kobayashi"
+       },
+       {
+        "name": "Kenichi Nakamura"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publisher": {
+      "en": "Elsevier BV"
+     },
+     "publication_date": "2023-05",
+     "publication_name": {
+      "en": "Applied Acoustics"
+     },
+     "volume": "207",
+     "number": "109337",
+     "starting_page": "1",
+     "ending_page": "12",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1016/j.apacoust.2023.109337"
+      ],
+      "issn": [
+       "0003-682X"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1016/j.apacoust.2023.109337",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42580027",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42580027",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:53:29Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:59:56Z",
+     "paper_title": {
+      "en": "Subjective evaluation regarding mixing ratio of bone-conducted to air-conducted speech for own-voice perception"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Peter Birkholz"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2022-10",
+     "publication_name": {
+      "en": "Proc. 24th International Congress for Acoustics (ICA 2022)"
+     },
+     "starting_page": "160",
+     "ending_page": "167",
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "published_paper_type": "international_conference_proceedings",
+     "dataset": {
+      "dataset_name": "ICA22_TBU_slide.pdf",
+      "dataset_type": "published",
+      "access_url": "https://researchmap.jp/t-toya/published_papers/42580027/attachment_file.pdf",
+      "rm:media_type": "application/pdf",
+      "rm:use_password": false,
+      "thumbnail_url": "https://researchmap.jp/t-toya/published_papers/42580027/attachment_file.pdf?thumbnail"
+     },
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42580040",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42580040",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T13:58:57Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:59:53Z",
+     "paper_title": {
+      "en": "Method for improving the word intelligibility of presented speech using bone-conduction headphones"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Maori Kobayashi"
+       },
+       {
+        "name": "Kenichi Nakamura"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publisher": {
+      "en": "ISCA"
+     },
+     "publication_date": "2022-09",
+     "publication_name": {
+      "en": "Proc. INTERSPEECH 2022"
+     },
+     "starting_page": "759",
+     "ending_page": "763",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "international_conference_proceedings",
+     "dataset": {
+      "dataset_name": "IS22Post_TKNU.pdf",
+      "dataset_type": "published",
+      "access_url": "https://researchmap.jp/t-toya/published_papers/42580040/attachment_file.pdf",
+      "rm:media_type": "application/pdf",
+      "rm:use_password": false,
+      "thumbnail_url": "https://researchmap.jp/t-toya/published_papers/42580040/attachment_file.pdf?thumbnail"
+     },
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.21437/Interspeech.2022-10463"
+      ],
+      "dblp_id": [
+       "conf/interspeech/ToyaZKNU22"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.21437/Interspeech.2022-10463",
+       "is_downloadable": false
+      },
+      {
+       "label": "DBLP",
+       "@id": "https://dblp.org/rec/conf/interspeech/ToyaZKNU22",
+       "is_downloadable": false
+      },
+      {
+       "label": "url",
+       "@id": "https://dblp.uni-trier.de/rec/conf/interspeech/2022",
+       "is_downloadable": false
+      },
+      {
+       "label": "url",
+       "@id": "https://dblp.uni-trier.de/db/conf/interspeech/interspeech2022.html#ToyaZKNU22",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42580173",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42580173",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T15:03:30Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-14T11:10:58Z",
+     "paper_title": {
+      "en": "Measurements of transmission characteristics related to bone-conducted speech using excitation signals in the oral cavity"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Peter Birkholz"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "description": {
+      "en": "Purpose\n\n Psychoacoustical studies on transmission characteristics related to bone-conducted (BC) speech, perceived by speakers during vocalization, are important for further understanding the relationship between speech production and perception, especially auditory feedback. For exploring how the outer ear part contributes to BC speech transmission, this article aims to measure the transmission characteristics of bone conduction focusing on the vibration of the regio temporalis (RT) and sound radiation in the ear canal (EC) due to the excitation in the oral cavity (OC).\n\n Method\n\n While an excitation signal was presented through a loudspeaker located in the enclosed cavity below the hard palate, transmitted signals were measured on the RT and in the EC. The transfer functions of the RT vibration and EC sound pressure relative to OC sound pressure were determined from the measured signals using the sweep-sine method.\n\n Results\n\n Our findings obtained from the measurements of five participants are as follows: (a) the transfer function of the RT vibration relative to the OC sound pressure attenuated the frequency components above 1 kHz and (b) the transfer function of the EC relative to the OC sound pressure emphasized the frequency components between 2 and 3 kHz.\n\n Conclusions\n\n The vibration of the soft tissue or the skull bone has an effect of low-pass filtering, whereas the sound radiation in the EC has an effect of 2–3 kHz bandpass filtering. Considering the perceptual effect of low-pass filtering in BC speech, our findings suggest that the transmission to the outer ear may not be a dominant contributor to BC speech perception during vocalization."
+     },
+     "publisher": {
+      "en": "American Speech Language Hearing Association"
+     },
+     "publication_date": "2020-12-14",
+     "publication_name": {
+      "en": "Journal of Speech, Language, and Hearing Research"
+     },
+     "volume": "63",
+     "number": "12",
+     "starting_page": "4252",
+     "ending_page": "4264",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1044/2020_jslhr-20-00097"
+      ],
+      "issn": [
+       "1092-4388"
+      ],
+      "e_issn": [
+       "1558-9102"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1044/2020_jslhr-20-00097",
+       "is_downloadable": false
+      },
+      {
+       "@id": "http://pubs.asha.org/doi/pdf/10.1044/2020_JSLHR-20-00097",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42580190",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42580190",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T15:12:17Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:36:33Z",
+     "paper_title": {
+      "en": "Estimates of transmission characteristics related to perception of bone-conducted speech using real utterances and transcutaneous vibration on larynx"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Peter Birkholz"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publisher": {
+      "en": "Springer International Publishing"
+     },
+     "publication_date": "2019-07-24",
+     "publication_name": {
+      "en": "Speech and Computer"
+     },
+     "volume": "11658",
+     "starting_page": "491",
+     "ending_page": "500",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "in_book",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1007/978-3-030-26061-3_50"
+      ],
+      "issn": [
+       "0302-9743"
+      ],
+      "e_issn": [
+       "1611-3349"
+      ],
+      "isbn": [
+       "9783030260606",
+       "9783030260613"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1007/978-3-030-26061-3_50",
+       "is_downloadable": false
+      },
+      {
+       "@id": "http://link.springer.com/content/pdf/10.1007/978-3-030-26061-3_50",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/published_papers/42580205",
+     "@type": "published_papers",
+     "@reverse": "https://api.researchmap.jp/t-toya/published_papers",
+     "rm:id": "42580205",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T15:22:53Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-02-14T11:10:50Z",
+     "paper_title": {
+      "en": "Study on effects of speech production during delayed auditory feedback for air-conducted and bone-conducted speech"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Daisuke Ishikawa"
+       },
+       {
+        "name": "Ryota Miyauchi"
+       },
+       {
+        "name": "Kazushi Nishimoto"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publisher": {
+      "en": "Research Institute of Signal Processing, Japan"
+     },
+     "publication_date": "2016-07",
+     "publication_name": {
+      "en": "Journal of Signal Processing"
+     },
+     "volume": "20",
+     "number": "4",
+     "starting_page": "197",
+     "ending_page": "200",
+     "languages": [
+      "eng"
+     ],
+     "referee": true,
+     "published_paper_type": "scientific_journal",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.2299/jsp.20.197"
+      ],
+      "issn": [
+       "1342-6230"
+      ],
+      "e_issn": [
+       "1880-1013"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.2299/jsp.20.197",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://www.jstage.jst.go.jp/article/jsp/20/4/20_197/_pdf",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/misc",
+   "@type": "misc",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 19,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766824",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766824",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:44:20Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:44:20Z",
+     "paper_title": {
+      "en": "Sweep-frequency impedance (SFI) for middle-ear pathology classification with machine learning"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Michio Murakoshi"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Mao Inaba"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       }
+      ]
+     },
+     "publication_date": "2026-07",
+     "publication_name": {
+      "en": "Proc. The 10th World Congress of Biomechanics"
+     },
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766477",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766477",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:25:38Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:25:38Z",
+     "paper_title": {
+      "ja": "母音・単語の音高弁別特性調査",
+      "en": "Investigation of discrimination of pitch and tone-height for vowels and words"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "森田翔太"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ],
+      "en": [
+       {
+        "name": "Shota Morita"
+       },
+       {
+        "name": "Teruki Toya"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "last"
+     ],
+     "publication_date": "2026-03",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告",
+      "en": "IEICE Technical Report"
+     },
+     "volume": "125",
+     "number": "396",
+     "starting_page": "6",
+     "ending_page": "10",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/51849627",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "51849627",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-12-13T08:08:29Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-12-13T08:08:29Z",
+     "paper_title": {
+      "ja": "外耳道内圧掃引下での音響計測による中耳疾患判別に向けた特徴量の検討",
+      "en": "Investigation on features for predicting middle-ear dysfunctions using acoustic measurements under sweeping static pressure"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "清水圭吾"
+       },
+       {
+        "name": "村越道生"
+       },
+       {
+        "name": "杉本寿史"
+       },
+       {
+        "name": "小澤賢司"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ],
+      "en": [
+       {
+        "name": "Keigo Shimizu"
+       },
+       {
+        "name": "Michio Murakoshi"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Kenji Ozawa"
+       },
+       {
+        "name": "Teruki Toya"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "last",
+      "corresponding"
+     ],
+     "publication_date": "2025-11",
+     "publication_name": {
+      "ja": "日本音響学会聴覚研究会資料",
+      "en": "Proc. Auditory Res. Meeting, Acoust. Soc. Jpn"
+     },
+     "volume": "55",
+     "number": "6",
+     "starting_page": "369",
+     "ending_page": "374",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766791",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766791",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:42:06Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:42:06Z",
+     "paper_title": {
+      "en": "Consideration on multiple body-conduction transfer functions contributing to speakers’ own voice perception"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       }
+      ]
+     },
+     "description": {
+      "en": "Speakers perceive their own voices, transmitted through both air-conduction (AC) and body-conduction (BC) pathways. BC voice transmission is divided into at least two different types: induction of sound in the ear canal (EC) due to vibrations of the EC wall (i.e., the outer-ear BC component) and transmission of bone/tissue vibrations to reach the middle/inner ear directly (i.e., the middle/inner-ear BC component). The author’s group has continuously attempted measuring transfer functions of those two pathways and simulating one’s own voice using the transfer functions. However, our previous attempt remained to be discussed regarding (1) methods of transfer function measurement and (2) different trends among articulation. The present study measured the acoustic transfer function between the oral cavity and the EC (which corresponds to the outer-ear BC component) and the vibration transfer function between the larynx and the condyle (which corresponds to the middle/inner-ear BC component) separately to explore amplitude and phase characteristics of the BC voice for multiple articulations. For both the former and latter transfer functions, lower frequency components (e.g., below 500 Hz) were found to be relatively preserved. Moreover, local trends of the transfer functions were found to be strongly dependent on the articulations."
+     },
+     "publisher": {
+      "en": "Acoustical Society of America (ASA)"
+     },
+     "publication_date": "2025-10-01",
+     "publication_name": {
+      "en": "The Journal of the Acoustical Society of America"
+     },
+     "volume": "158",
+     "number": "4_Supplement",
+     "starting_page": "A408",
+     "ending_page": "A408",
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1121/10.0041337"
+      ],
+      "e_issn": [
+       "1520-8524"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1121/10.0041337",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://pubs.aip.org/jasa/article/158/4_Supplement/A408/3391006/Consideration-on-multiple-body-conduction-transfer",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/50556332",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "50556332",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-07-06T05:42:01Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-07-06T05:42:01Z",
+     "paper_title": {
+      "ja": "時空間スペクトル画像に対する画像修復に基づく雑音抑圧に関する検討",
+      "en": "A Study on Noise Suppression Based on Image Inpainting for Spatiotemporal Spectral Images"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "両角有真"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Yuma Morozumi"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "publication_date": "2025-07",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告",
+      "en": "IEICE Technical Report"
+     },
+     "volume": "EA2025-12",
+     "starting_page": "211",
+     "ending_page": "216",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766841",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766841",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:46:00Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:46:00Z",
+     "paper_title": {
+      "en": "Development of a diagnostic apparatus for conductive hearing loss"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Hibiki Kishii"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "publication_date": "2025-04",
+     "publication_name": {
+      "en": "Proc. 8th Korea-Japan Joint Symposium on Dynamics & Control"
+     },
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766871",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766871",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:48:13Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:48:38Z",
+     "paper_title": {
+      "en": "Identification of conductive hearing loss using a sweep frequency impedance (SFI) meter"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Di Zhou"
+       },
+       {
+        "name": "Hisashi Sugimoto"
+       },
+       {
+        "name": "Michio Murakoshi"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "publication_date": "2025-02",
+     "publication_name": {
+      "en": "Proc. The 48th Annual MidWinter Meeting of the Association for Research in Otolaryngology"
+     },
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/49601845",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "49601845",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T10:11:50Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T10:11:50Z",
+     "paper_title": {
+      "ja": "周波数掃引インピーダンス（SFI）計測による中耳疾患判別",
+      "en": "Predicting middle-ear dysfunctions using sweep frequency impedance (SFI) measurement"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "周迪"
+       },
+       {
+        "name": "永井理紗"
+       },
+       {
+        "name": "杉本寿史"
+       },
+       {
+        "name": "村越道生"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki TOYA"
+       },
+       {
+        "name": "Di ZHOU"
+       },
+       {
+        "name": "Risa NAGAI"
+       },
+       {
+        "name": "Hisashi SUGIMOTO"
+       },
+       {
+        "name": "Michio MURAKOSHI"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead"
+     ],
+     "publication_date": "2024-06",
+     "publication_name": {
+      "ja": "日本音響学会聴覚研究会資料",
+      "en": "Proc. Auditory Res. Meeting, Acoust. Soc. Jpn"
+     },
+     "volume": "54",
+     "number": "3",
+     "starting_page": "311",
+     "ending_page": "316",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42880035",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42880035",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-07-23T07:17:14Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-07-23T07:17:14Z",
+     "paper_title": {
+      "ja": "複素スパースベイズ推定に基づく小規模マイクロホンアレイによる音源測距に関する検討"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "有泉千太"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ]
+     },
+     "publication_date": "2023-07-02",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告"
+     },
+     "volume": "123",
+     "number": "95, EA2023-17",
+     "starting_page": "72",
+     "ending_page": "77",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42880026",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42880026",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-07-23T07:14:27Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-07-23T08:19:29Z",
+     "paper_title": {
+      "ja": "An idea about pretraining in EEG domain",
+      "en": "An idea about pretraining in EEG domain"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "Xianhua Su"
+       },
+       {
+        "name": "Wanzeng Kong"
+       },
+       {
+        "name": "Xuanyu Jin"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ],
+      "en": [
+       {
+        "name": "Xianhua Su"
+       },
+       {
+        "name": "Wanzeng Kong"
+       },
+       {
+        "name": "Xuanyu Jin"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "publication_date": "2023-07-02",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告"
+     },
+     "volume": "123",
+     "number": "95, EA2023-15",
+     "starting_page": "58",
+     "ending_page": "63",
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580396",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580396",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:38:33Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:38:33Z",
+     "paper_title": {
+      "ja": "骨導提示音声の了解度改善のための子音強調処理の改良"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "王思成"
+       },
+       {
+        "name": "上江洲安史"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "publication_date": "2022-11",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告"
+     },
+     "volume": "122",
+     "number": "EA2022-59",
+     "starting_page": "93",
+     "ending_page": "98",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580397",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580397",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:39:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:39:45Z",
+     "paper_title": {
+      "ja": "自己聴取音声に占める気導・骨導音声の混合比の主観評価"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "BIRKHOLZ Peter"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2020-06",
+     "publication_name": {
+      "ja": "日本音響学会聴覚研究会資料"
+     },
+     "volume": "50",
+     "number": "3",
+     "starting_page": "153",
+     "ending_page": "158",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580398",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580398",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:41:30Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:41:30Z",
+     "paper_title": {
+      "ja": "聴覚フィードバック時の気導音と骨導音を考慮した音声合成モデルの検討"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "森田翔太"
+       },
+       {
+        "name": "川本大貴"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "last"
+     ],
+     "publication_date": "2019-08",
+     "publication_name": {
+      "ja": "日本音響学会聴覚研究会資料"
+     },
+     "volume": "49",
+     "number": "5",
+     "starting_page": "301",
+     "ending_page": "305",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580400",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580400",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:43:09Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:43:09Z",
+     "paper_title": {
+      "ja": "声道での圧力伝搬を経た骨導音声の伝達特性の分析"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "BIRKHOLZ Peter"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2019-05",
+     "publication_name": {
+      "ja": "日本音響学会聴覚研究会資料"
+     },
+     "volume": "49",
+     "number": "2",
+     "starting_page": "95",
+     "ending_page": "100",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766955",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766955",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:54:29Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:54:29Z",
+     "paper_title": {
+      "en": "Analysis of spectral and transmission characteristics of bone-conducted speech using real utterances and transcutaneous vibration"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Peter Birkholz"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "description": {
+      "en": "Previous studies related to auditory feedback have found that hearing one's own voice has important roles in maintaining one's speech production. However, it is still unclear how perception of one's bone-conducted (BC) speech affects one's speech production, since most studies have just presented white/pink noise for masking speakers’ BC speech without enough consideration of acoustical and transmission characteristics of BC speech itself. This study aims to investigate spectral characteristics of the observable parts of BC speech (temporal bone (TB) vibration and ear canal (EC) speech) and transmission characteristics related to them. Spectral envelopes of vowel utterances and long-term average spectrum (LTAS) of sentence utterances were analyzed. Moreover, transfer functions from larynxes to TB and EC were measured using transcutaneous vibration signals. As results of these analyses, although the spectral shapes are different among the vowels in TB vibration and EC speech, it was found that the transmission from larynxes to TB emphasizes lower frequency components and the transmission from larynxes to EC emphasizes the higher frequency components. [Work supported by JSPS KAKENHI Grant No. JP. 17J03679, and Grant in Aid for Scientific Research Innovative Areas (Grant No. 16H01669, 18H05004) from MEXT, Japan.]"
+     },
+     "publisher": {
+      "en": "Acoustical Society of America (ASA)"
+     },
+     "publication_date": "2018-09-01",
+     "publication_name": {
+      "en": "The Journal of the Acoustical Society of America"
+     },
+     "volume": "144",
+     "number": "3_Supplement",
+     "starting_page": "1838",
+     "ending_page": "1838",
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1121/1.5068103"
+      ],
+      "issn": [
+       "0001-4966"
+      ],
+      "e_issn": [
+       "1520-8524"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1121/1.5068103",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://pubs.aip.org/jasa/article/144/3_Supplement/1838/664734/Analysis-of-spectral-and-transmission",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580402",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580402",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:45:47Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:45:47Z",
+     "paper_title": {
+      "ja": "加振信号を用いた骨導音声の伝達特性の分析"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "BIRKHOLZ Peter"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2018-03",
+     "volume": "48",
+     "number": "2",
+     "starting_page": "169",
+     "ending_page": "174",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580401",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580401",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:44:43Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:44:43Z",
+     "paper_title": {
+      "ja": "発話音声を用いた骨導音声の伝達特性の分析"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "BIRKHOLZ Peter"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2018-03",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告"
+     },
+     "volume": "117",
+     "number": "515",
+     "starting_page": "355",
+     "ending_page": "36",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/54766970",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "54766970",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-08-28T06:55:51Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-08-28T06:55:51Z",
+     "paper_title": {
+      "en": "Presentation method as air- and bone-conducted speech for delayed auditory feedback"
+     },
+     "authors": {
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Masashi Unoki"
+       }
+      ]
+     },
+     "description": {
+      "en": "Speakers perceive their own voices as “auditory feedback” during speech production. Effects of delayed auditory feedback (DAF) on their speaking styles have been investigated to clarify relationships between speech production and perception. It has been previously investigated whether DAF as not only air-conducted (AC) but also bone-conducted (BC) speech affects speakers’ speaking styles. However, existence of speakers’ own natural voice via bone-conduction could not be ignored. This study investigates the speaking styles under DAF as AC and BC speech in presence of masker, for clarifying the effects of only delayed stimuli as AC and BC speech. Speech duration and the number of dysfluent episodes under delay conditions were measured to quantify the effect of delayed stimuli on the speaking styles. As a result, under noiseless and AC masker conditions, longer speech duration and more dysfluencies were observed under DAF as BC speech than that as AC speech. In contrast, under BC masker condition, opposite trends were observed. Speakers’ introspection suggested that their own natural voices were masked by AC masker better than BC masker. These results indicated that the use of AC masker is effective for masking speakers’ own natural voice during DAF as AC and BC speech."
+     },
+     "publisher": {
+      "en": "Acoustical Society of America (ASA)"
+     },
+     "publication_date": "2017-05-01",
+     "publication_name": {
+      "en": "The Journal of the Acoustical Society of America"
+     },
+     "volume": "141",
+     "number": "5_Supplement",
+     "starting_page": "3820",
+     "ending_page": "3820",
+     "languages": [
+      "eng"
+     ],
+     "referee": false,
+     "invited": false,
+     "misc_type": "summary_international_conference",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "doi": [
+       "10.1121/1.4988471"
+      ],
+      "issn": [
+       "0001-4966"
+      ],
+      "e_issn": [
+       "1520-8524"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "doi",
+       "@id": "https://doi.org/10.1121/1.4988471",
+       "is_downloadable": false
+      },
+      {
+       "@id": "https://pubs.aip.org/jasa/article/141/5_Supplement/3820/612062/Presentation-method-as-air-and-bone-conducted",
+       "label": "url",
+       "is_downloadable": false
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/misc/42580403",
+     "@type": "misc",
+     "@reverse": "https://api.researchmap.jp/t-toya/misc",
+     "rm:id": "42580403",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T17:47:07Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T17:47:07Z",
+     "paper_title": {
+      "ja": "気導・骨導の遅延聴覚フィードバックが発話に与える影響"
+     },
+     "authors": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "鵜木祐史"
+       }
+      ]
+     },
+     "published_paper_owner_roles": [
+      "lead",
+      "corresponding"
+     ],
+     "publication_date": "2016-10",
+     "publication_name": {
+      "ja": "電子情報通信学会技術研究報告"
+     },
+     "volume": "116",
+     "number": "246",
+     "starting_page": "19",
+     "ending_page": "24",
+     "languages": [
+      "jpn"
+     ],
+     "referee": false,
+     "misc_type": "technical_report",
+     "rm:is_open_access": false
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/books_etc",
+   "@type": "books_etc",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 1,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/books_etc/50379679",
+     "@type": "books_etc",
+     "@reverse": "https://api.researchmap.jp/t-toya/books_etc",
+     "rm:id": "50379679",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-06-12T03:56:55Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-06-12T03:56:55Z",
+     "book_title": {
+      "ja": "進化するヒトと機械の音声コミュニケーション Vol.2: AIの活用と感情に寄り添う音声認識・合成の新展開"
+     },
+     "book_owner_role": "joint_work",
+     "authors": {
+      "ja": [
+       {
+        "name": "伊藤, 彰則"
+       },
+       {
+        "name": "森川, 大輔"
+       },
+       {
+        "name": "上江洲, 安史"
+       },
+       {
+        "name": "鳥谷, 輝樹"
+       },
+       {
+        "name": "高野, 佐代子"
+       },
+       {
+        "name": "河原, 達也"
+       },
+       {
+        "name": "鵜木, 祐史"
+       },
+       {
+        "name": "齊藤, 剛史"
+       },
+       {
+        "name": "吉村, 奈津江"
+       },
+       {
+        "name": "平井, 重行"
+       },
+       {
+        "name": "中島, 佐和子"
+       },
+       {
+        "name": "大河内, 直之"
+       },
+       {
+        "name": "中臺, 一博"
+       },
+       {
+        "name": "糸山, 克寿"
+       },
+       {
+        "name": "福森, 隆寛"
+       },
+       {
+        "name": "周藤, 唯"
+       },
+       {
+        "name": "松田, 裕之"
+       },
+       {
+        "name": "渡辺, 光太朗"
+       },
+       {
+        "name": "白土, 浩司"
+       },
+       {
+        "name": "三井, 祥幹"
+       },
+       {
+        "name": "鳥居, 崇"
+       },
+       {
+        "name": "中川, 達也"
+       },
+       {
+        "name": "高橋, 敏"
+       },
+       {
+        "name": "加藤, 集平"
+       }
+      ]
+     },
+     "book_owner_range": {
+      "ja": "第1編 聴覚・発声のメカニズムと音声認識・合成の最新技術 第1章 聴覚・発声のメカニズム"
+     },
+     "publisher": {
+      "ja": "エヌ・ティー・エス"
+     },
+     "publication_date": "2025-04",
+     "total_page": "1, 7, 254, 6p, 図版5p",
+     "languages": [
+      "jpn"
+     ],
+     "identifiers": {
+      "cinii_nc_id": [
+       "BD11469636"
+      ],
+      "isbn": [
+       "9784860439361"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "cinii_books",
+       "@id": "http://ci.nii.ac.jp/ncid/BD11469636",
+       "is_downloadable": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/presentations",
+   "@type": "presentations",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 54,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53164244",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "53164244",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-04-01T06:25:05Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-04-01T06:25:05Z",
+     "presentation_title": {
+      "ja": "音声の音高と音色の知覚の個人性調査"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "森田 翔太"
+       },
+       {
+        "name": "鳥谷 輝樹"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第155回（2026年春季）研究発表会"
+     },
+     "publication_date": "2026-03-17",
+     "from_event_date": "2026-03-17",
+     "to_event_date": "2026-03-19",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53164222",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "53164222",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-04-01T06:24:18Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-04-01T06:25:27Z",
+     "presentation_title": {
+      "ja": "時空間音圧分布画像を用いた音源分離にマイクロホンアレイの位置ずれが及ぼす影響"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "富田 浩音"
+       },
+       {
+        "name": "坂本 修一"
+       },
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "小澤 賢司"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第155回（2026年春季）研究発表会"
+     },
+     "publication_date": "2026-03-17",
+     "from_event_date": "2026-03-17",
+     "to_event_date": "2026-03-19",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53164195",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "53164195",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-04-01T06:23:21Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-04-01T06:25:35Z",
+     "presentation_title": {
+      "ja": "位相を含む時空間スペクトル画像に対する欠損修復に基づく雑音抑圧の改良"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "両角 有真"
+       },
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "小澤 賢司"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第155回（2026年春季）研究発表会"
+     },
+     "publication_date": "2026-03-17",
+     "from_event_date": "2026-03-17",
+     "to_event_date": "2026-03-19",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53163004",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "53163004",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-04-01T05:43:15Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-04-01T05:43:15Z",
+     "presentation_title": {
+      "ja": "大学工学部教員3年目の研究すゝめ方事例"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       }
+      ]
+     },
+     "event": {
+      "ja": "ビギナーズセミナー（学生・若手フォーラム主催） @日本音響学会第155回（2026年春季）研究発表会"
+     },
+     "publication_date": "2026-03-17",
+     "from_event_date": "2026-03-17",
+     "to_event_date": "2026-03-17",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "public_discourse",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/53162814",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "53162814",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2026-04-01T05:39:37Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2026-04-01T05:39:37Z",
+     "presentation_title": {
+      "ja": "骨導・軟骨導音提示による気導音抑圧に最適な位相条件の検討",
+      "en": "Preliminary study on the optimal phase condition of bone-conduction stimulation for suppression of air-conducted sound"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "三木 歩"
+       },
+       {
+        "name": "小澤 賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Ayumu Miki"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第155回（2026年春季）研究発表会"
+     },
+     "publication_date": "2026-03-17",
+     "from_event_date": "2026-03-17",
+     "to_event_date": "2026-03-17",
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253677"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216999",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51216999",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-20T01:54:57Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-20T01:54:57Z",
+     "presentation_title": {
+      "ja": "両耳提示された気導音の抑圧に向けた骨導提示方式の検討",
+      "en": "Consideration on a setup/procedure of bone-conduction stimulation for suppression of binaural air-conducted sound"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "三木歩"
+       },
+       {
+        "name": "幸田怜奈"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Ayumu Miki"
+       },
+       {
+        "name": "Reina Koda"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-12",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253677"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216983",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51216983",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-20T01:51:47Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-20T01:51:47Z",
+     "presentation_title": {
+      "ja": "音楽信号を用いた電子打診の実用化に向けた検討",
+      "en": "Towards the practical application of electronic percussion using musical signals"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "松井希和"
+       },
+       {
+        "name": "清水唯衣"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Kiwa Matsui"
+       },
+       {
+        "name": "Yui Shimizu"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-11",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253682"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51216972",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51216972",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-20T01:50:01Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-20T01:50:01Z",
+     "presentation_title": {
+      "ja": "小規模マイクロホンアレイから得た時空間スペクトルに基づくスパースベイズ音源分離",
+      "en": "Sparse Bayesian sound source separation based on spatiotemporal spectrum obtained from a small microphone array"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "有泉千太"
+       },
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Senta Ariizumi"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-10",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203518",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51203518",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-18T13:34:32Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-18T13:34:32Z",
+     "presentation_title": {
+      "ja": "小型マイクロホンアレイを用いた雑音抑圧システムの実機リアルタイム化",
+      "en": "Real-time ISSS noise suppression system using a small microphone array"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "原口侑梧"
+       },
+       {
+        "name": "花形駿太"
+       },
+       {
+        "name": "粟盛智也"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Yugo Haraguchi"
+       },
+       {
+        "name": "Shunta Hanagata"
+       },
+       {
+        "name": "Tomoya Awamori"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-10",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203507",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51203507",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-18T13:32:54Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-18T13:32:54Z",
+     "presentation_title": {
+      "ja": "位相を含む時空間スペクトル画像に対する画像修復に基づく雑音抑圧の検討",
+      "en": "Noise suppression based on image restoration of spatiotemporal spectral images including phase information"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "両角有真"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Yuma Morozumi"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-10",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51203500",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51203500",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-18T13:31:16Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-18T13:31:16Z",
+     "presentation_title": {
+      "ja": "骨導無発声音声の明瞭度向上に向けた音声強調システムの検討",
+      "en": "Investigation of speech enhancement systems for improving intelligibility of bone-conducted whispered speech"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "草田晃彦"
+       },
+       {
+        "name": "小澤賢司"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ],
+      "en": [
+       {
+        "name": "Akihiko Kusada"
+       },
+       {
+        "name": "Kenji Ozawa"
+       },
+       {
+        "name": "Teruki Toya"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第154回（2025年秋季）研究発表会",
+      "en": "154th (2025 Autumn) Meeting of Acoust. Soc. Jpn."
+     },
+     "publication_date": "2025-09-10",
+     "from_event_date": "2025-09-10",
+     "to_event_date": "2025-09-12",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253677"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51056269",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51056269",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-04T13:02:19Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-04T13:02:19Z",
+     "presentation_title": {
+      "ja": "音楽信号による打診における測定方法の検討",
+      "en": "Fundamental Study on Measurement Methods for Percussion Inspection Using Musical Signals"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "清水唯衣"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Yui Shimizu"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "第24 回情報科学技術フォーラム（FIT2015）",
+      "en": "24th IPSJ Forum on Information Technology"
+     },
+     "publication_date": "2025-09-04",
+     "from_event_date": "2025-09-03",
+     "to_event_date": "2025-09-05",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253682"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/51056257",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "51056257",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-09-04T12:59:44Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-09-04T13:02:46Z",
+     "presentation_title": {
+      "ja": "マイクロホンの周波数特性の校正がISSS 法による雑音抑制に及ぼす効果",
+      "en": "Effect of Microphone Frequency Response Calibration on Noise Suppression by the ISSS Method"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "原口侑梧"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ],
+      "en": [
+       {
+        "name": "Yugo Haraguchi"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji Ozawa"
+       }
+      ]
+     },
+     "event": {
+      "ja": "第24 回情報科学技術フォーラム（FIT2015）",
+      "en": "24th IPSJ Forum on Information Technology"
+     },
+     "publication_date": "2025-09-04",
+     "from_event_date": "2025-09-03",
+     "to_event_date": "2025-09-05",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601812",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "49601812",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T10:04:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T10:04:45Z",
+     "presentation_title": {
+      "ja": "外耳道内圧掃引下でのインパルス応答測定による伝音難聴検査法の検討"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "周迪"
+       },
+       {
+        "name": "村越道生"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第153回（2025年春季）研究発表会"
+     },
+     "publication_date": "2025-03-18",
+     "from_event_date": "2025-03-17",
+     "to_event_date": "2025-03-19",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "44397623"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601804",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "49601804",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T10:02:42Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T10:02:42Z",
+     "presentation_title": {
+      "ja": "小型マイクロホンアレイと時空間2 次元スペクトルを利用した周方向の音源分離に関する考察"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "有泉千太"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "渡邉貫治"
+       },
+       {
+        "name": "坂本修一"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第153回（2025年春季）研究発表会"
+     },
+     "publication_date": "2025-03-17",
+     "from_event_date": "2025-03-17",
+     "to_event_date": "2025-03-19",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601791",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "49601791",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T09:59:11Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T09:59:11Z",
+     "presentation_title": {
+      "ja": "骨導提示音による気導提示音抑圧のための振幅・位相条件の検討"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "幸田怜奈"
+       },
+       {
+        "name": "鵜木祐史"
+       },
+       {
+        "name": "小澤賢司"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ]
+     },
+     "event": {
+      "ja": "情報処理学会第87回全国大会"
+     },
+     "publication_date": "2025-03-15",
+     "from_event_date": "2025-03-13",
+     "to_event_date": "2025-03-15",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253677"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601779",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "49601779",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T09:56:50Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T09:56:50Z",
+     "presentation_title": {
+      "ja": "音楽信号による打診の実現に向けた基礎的検討"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "清水唯衣"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ]
+     },
+     "event": {
+      "ja": "情報処理学会第87回全国大会"
+     },
+     "publication_date": "2025-03-15",
+     "from_event_date": "2025-03-13",
+     "to_event_date": "2025-03-15",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "48253682"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/49601770",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "49601770",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2025-03-30T09:55:40Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2025-03-30T09:55:40Z",
+     "presentation_title": {
+      "ja": "スパースベイズ推定による時空間スペクトルを用いた複数音源の到来方向推定に関する考察"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "有泉千太"
+       },
+       {
+        "name": "鳥谷輝樹"
+       },
+       {
+        "name": "小澤賢司"
+       }
+      ]
+     },
+     "event": {
+      "ja": "情報処理学会第87回全国大会"
+     },
+     "publication_date": "2025-03-15",
+     "from_event_date": "2025-03-13",
+     "to_event_date": "2025-03-15",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false,
+     "identifiers": {
+      "rm:research_project_id": [
+       "47329565"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://api.researchmap.jp/t-toya/research_projects/47329565",
+       "label": "rm:research_project_id"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/48253664",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "48253664",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-10-21T06:32:50Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:32:50Z",
+     "presentation_title": {
+      "ja": "Multimodal Sarcasm Analysis: Sarcastic Cues Capture from Both Emotional Polarity and Semantic Information",
+      "en": "Multimodal Sarcasm Analysis: Sarcastic Cues Capture from Both Emotional Polarity and Semantic Information"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "Ziwei Yang"
+       },
+       {
+        "name": "Jiajia Tang"
+       },
+       {
+        "name": "Feiwei Zhou"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji. Ozawa"
+       },
+       {
+        "name": "Wanzeng Kong"
+       }
+      ],
+      "en": [
+       {
+        "name": "Ziwei Yang"
+       },
+       {
+        "name": "Jiajia Tang"
+       },
+       {
+        "name": "Feiwei Zhou"
+       },
+       {
+        "name": "Teruki Toya"
+       },
+       {
+        "name": "Kenji. Ozawa"
+       },
+       {
+        "name": "Wanzeng Kong"
+       }
+      ]
+     },
+     "event": {
+      "ja": "FIT2024",
+      "en": "FIT2024"
+     },
+     "publication_date": "2024-09-06",
+     "from_event_date": "2024-09-04",
+     "to_event_date": "2024-09-06",
+     "invited": false,
+     "languages": [
+      "eng"
+     ],
+     "presentation_type": "oral_presentation",
+     "rm:is_open_access": false
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/presentations/48253645",
+     "@type": "presentations",
+     "@reverse": "https://api.researchmap.jp/t-toya/presentations",
+     "rm:id": "48253645",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-10-21T06:29:54Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:29:54Z",
+     "presentation_title": {
+      "ja": "開放耳における気導提示純音の骨導提示音による抑圧効果"
+     },
+     "presenters": {
+      "ja": [
+       {
+        "name": "幸田怜奈"
+       },
+       {
+        "name": "鵜木祐史"
+       },
+       {
+        "name": "小澤賢司"
+       },
+       {
+        "name": "鳥谷輝樹"
+       }
+      ]
+     },
+     "event": {
+      "ja": "日本音響学会第152回（2024年秋季）研究発表会"
+     },
+     "publication_date": "2024-09-05",
+     "from_event_date": "2024-09-03",
+     "to_event_date": "2024-09-05",
+     "invited": false,
+     "languages": [
+      "jpn"
+     ],
+     "presentation_type": "poster_presentation",
+     "rm:is_open_access": false
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 5,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580334",
+     "@type": "association_memberships",
+     "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+     "rm:id": "42580334",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:30:13Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:30:13Z",
+     "academic_society_name": {
+      "ja": "日本機械学会"
+     },
+     "from_date": "2022",
+     "to_date": "9999"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580332",
+     "@type": "association_memberships",
+     "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+     "rm:id": "42580332",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:29:29Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:29:29Z",
+     "academic_society_name": {
+      "ja": "アメリカ音響学会",
+      "en": "The Acoustical Society of America"
+     },
+     "from_date": "2017",
+     "to_date": "9999"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580331",
+     "@type": "association_memberships",
+     "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+     "rm:id": "42580331",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:28:34Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:28:34Z",
+     "academic_society_name": {
+      "ja": "日本音響学会"
+     },
+     "from_date": "2015",
+     "to_date": "9999"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580330",
+     "@type": "association_memberships",
+     "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+     "rm:id": "42580330",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:28:11Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:28:11Z",
+     "academic_society_name": {
+      "ja": "情報処理学会"
+     },
+     "from_date": "2014",
+     "to_date": "9999"
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580333",
+     "@type": "association_memberships",
+     "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+     "rm:id": "42580333",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-06-21T16:29:55Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-06-21T16:29:55Z",
+     "academic_society_name": {
+      "ja": "電子情報通信学会"
+     },
+     "from_date": "2016",
+     "to_date": "2019"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_projects",
+   "@type": "research_projects",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 7,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253682",
+     "@type": "research_projects",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+     "rm:id": "48253682",
+     "rm:user_id": "R000050523",
+     "identifiers_id_modified": "2026-08-28 06:57:06",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-10-21T06:35:50Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:35:53Z",
+     "research_project_title": {
+      "ja": "音楽信号を用いた電子打診による体調管理の支援可能性の探求",
+      "en": "Exploring the Potential of Health Management Support through Electronic Percussion Using Musical Signals"
+     },
+     "investigators": {
+      "ja": [
+       {
+        "name": "小澤 賢司"
+       },
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "木戸 浩一郎"
+       }
+      ]
+     },
+     "offer_organization": {
+      "ja": "日本学術振興会",
+      "en": "Japan Society for the Promotion of Science"
+     },
+     "system_name": {
+      "ja": "科学研究費助成事業",
+      "en": "Grants-in-Aid for Scientific Research"
+     },
+     "category": {
+      "ja": "挑戦的研究(萌芽)",
+      "en": "Grant-in-Aid for Challenging Research (Exploratory)"
+     },
+     "institution_name": {
+      "ja": "山梨大学",
+      "en": "University of Yamanashi"
+     },
+     "from_date": "2024-06",
+     "to_date": "2027-03",
+     "research_project_owner_role": "coinvestigator",
+     "overall_grant_amount": {
+      "total_cost": "6240000",
+      "direct_cost": "4800000",
+      "indirect_cost": "1440000"
+     },
+     "identifiers": {
+      "grant_number": [
+       "24K22337"
+      ],
+      "national_grant_number": [
+       "JP24K22337"
+      ],
+      "rm:published_paper_id": [
+       "54765951",
+       "51526077"
+      ],
+      "rm:presentation_id": [
+       "51216983",
+       "51056269",
+       "49601779"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K22337",
+       "label": "kaken"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/54765951"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/51526077"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/51216983"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/51056269"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/49601779"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253677",
+     "@type": "research_projects",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+     "rm:id": "48253677",
+     "rm:user_id": "R000050523",
+     "identifiers_id_modified": "2026-04-01 05:39:37",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-10-21T06:35:11Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:35:15Z",
+     "research_project_title": {
+      "ja": "骨導デバイスを用いた耳開放型騒音抑圧法の確立",
+      "en": "Method for open-ear noise suppression using bone-conduction devices"
+     },
+     "investigators": {
+      "ja": [
+       {
+        "name": "鳥谷 輝樹"
+       }
+      ]
+     },
+     "offer_organization": {
+      "ja": "日本学術振興会",
+      "en": "Japan Society for the Promotion of Science"
+     },
+     "system_name": {
+      "ja": "科学研究費助成事業",
+      "en": "Grants-in-Aid for Scientific Research"
+     },
+     "category": {
+      "ja": "若手研究",
+      "en": "Grant-in-Aid for Early-Career Scientists"
+     },
+     "institution_name": {
+      "ja": "山梨大学",
+      "en": "University of Yamanashi"
+     },
+     "from_date": "2024-04",
+     "to_date": "2027-03",
+     "research_project_owner_role": "principal_investigator",
+     "overall_grant_amount": {
+      "total_cost": "4680000",
+      "direct_cost": "3600000",
+      "indirect_cost": "1080000"
+     },
+     "identifiers": {
+      "grant_number": [
+       "24K20791"
+      ],
+      "national_grant_number": [
+       "JP24K20791"
+      ],
+      "rm:presentation_id": [
+       "53162814",
+       "51216999",
+       "51203500",
+       "49601791"
+      ]
+     },
+     "see_also": [
+      {
+       "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20791",
+       "label": "kaken"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/53162814"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/51216999"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/51203500"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/49601791"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253706",
+     "@type": "research_projects",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+     "rm:id": "48253706",
+     "rm:user_id": "R000050523",
+     "identifiers_id_modified": "2026-08-28 06:42:16",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-10-21T06:39:45Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:39:58Z",
+     "research_project_title": {
+      "ja": "発話者の骨導音知覚特性を考慮した気導音－自己聴取音の声質変換モデル構築"
+     },
+     "investigators": {
+      "ja": [
+       {
+        "name": "鳥谷 輝樹"
+       }
+      ]
+     },
+     "offer_organization": {
+      "ja": "カワイサウンド技術・音楽振興財団"
+     },
+     "system_name": {
+      "ja": "2024年度 サウンド技術振興部門（音声）"
+     },
+     "institution_name": {
+      "ja": "山梨大学"
+     },
+     "from_date": "2024-04",
+     "to_date": "2025-03",
+     "research_project_owner_role": "principal_investigator",
+     "identifiers": {
+      "rm:award_id": [
+       "48412035"
+      ],
+      "rm:published_paper_id": [
+       "48412020"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "rm:awards",
+       "@id": "https://api.researchmap.jp/t-toya/awards/48412035"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/48412020"
+      }
+     ]
+    },
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+     "@type": "research_projects",
+     "@reverse": "https://api.researchmap.jp/t-toya/research_projects",
+     "rm:id": "44397623",
+     "rm:user_id": "R000050523",
+     "identifiers_id_modified": "2026-08-28 06:59:26",
+     "display": "disclosed",
+     "major_achievement": true,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2024-01-05T05:46:51Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2024-10-21T06:35:59Z",
+     "research_project_title": {
+      "ja": "伝音難聴の非侵襲診断に関する研究開発",
+      "en": "Study on non-invasive diagnosis of conductive hearing loss"
+     },
+     "offer_organization": {
+      "ja": "国立研究開発法人日本医療研究開発機構（AMED）",
+      "en": "Japan Agency for Medical Research and Development (AMED)"
+     },
+     "system_name": {
+      "ja": "医療機器等研究成果展開事業（開発実践タイプ）",
+      "en": "Project for deploying research outcomes for medical devices"
+     },
+     "institution_name": {
+      "ja": "山梨大学",
+      "en": "University of Yamanashi"
+     },
+     "from_date": "2023-04",
+     "to_date": "2024-03",
+     "research_project_owner_role": "coinvestigator",
+     "identifiers": {
+      "grant_number": [
+       "JP23hma322027"
+      ],
+      "rm:award_id": [
+       "45584170"
+      ],
+      "rm:published_paper_id": [
+       "51849616",
+       "50583497",
+       "50256746",
+       "45959854",
+       "45592916",
+       "45592914",
+       "45592909"
+      ],
+      "rm:misc_id": [
+       "51849627",
+       "54766841"
+      ],
+      "rm:presentation_id": [
+       "49601812",
+       "45959889"
+      ]
+     },
+     "see_also": [
+      {
+       "label": "rm:awards",
+       "@id": "https://api.researchmap.jp/t-toya/awards/45584170"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/51849616"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/50583497"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/50256746"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/45959854"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/45592916"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/45592914"
+      },
+      {
+       "label": "rm:published_papers",
+       "@id": "https://api.researchmap.jp/t-toya/published_papers/45592909"
+      },
+      {
+       "label": "rm:misc",
+       "@id": "https://api.researchmap.jp/t-toya/misc/51849627"
+      },
+      {
+       "label": "rm:misc",
+       "@id": "https://api.researchmap.jp/t-toya/misc/54766841"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/49601812"
+      },
+      {
+       "label": "rm:presentations",
+       "@id": "https://api.researchmap.jp/t-toya/presentations/45959889"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/industrial_property_rights",
+   "@type": "industrial_property_rights",
+   "@reverse": "https://api.researchmap.jp/t-toya",
+   "total_items": 1,
+   "items": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/industrial_property_rights/42880010",
+     "@type": "industrial_property_rights",
+     "@reverse": "https://api.researchmap.jp/t-toya/industrial_property_rights",
+     "rm:id": "42880010",
+     "rm:user_id": "R000050523",
+     "display": "disclosed",
+     "major_achievement": false,
+     "rm:creator_id": "R000050523",
+     "rm:creator_type": "myself",
+     "rm:created": "2023-07-23T07:07:56Z",
+     "rm:modifier_id": "R000050523",
+     "rm:modifier_type": "myself",
+     "rm:modified": "2023-07-23T07:07:56Z",
+     "industrial_property_right_type": "patent_right",
+     "industrial_property_right_title": {
+      "ja": "聴覚器官のための測定装置"
+     },
+     "inventors": {
+      "ja": [
+       {
+        "name": "鳥谷 輝樹"
+       },
+       {
+        "name": "村越道生"
+       }
+      ]
+     },
+     "application_number": "特願2023-053643",
+     "application_date": "2023-03-29",
+     "applicants": [
+      {
+       "applicant": {
+        "ja": "国立大学法人金沢大学"
+       },
+       "rm:institution_code": "0236000000"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

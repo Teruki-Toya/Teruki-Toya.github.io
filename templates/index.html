@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">{{ site.hero.eyebrow }}</p>
+      <h1>{{ site.hero.title|safe }}</h1>
+      <p class="lead">{{ L(site.hero.lead, lang) }}</p>
+    </div>
+    <a class="hero-id" href="{{ lang_root }}about.html">
+      <img src="{{ root }}assets/img/profile-face.jpg" alt="{{ L(site.name, lang) }}" width="104" height="104">
+      <span><strong>{{ L(site.name, lang) }}</strong>{{ L(site.position_short, lang) }}<br>{{ L(site.lab, lang) }}</span>
+    </a>
+  </div>
+</section>
+
+<div class="wrap stack-xl">
+  <section class="block" aria-labelledby="h-news">
+    <div class="block-head">
+      <div><h2 id="h-news">News</h2><p>{{ t.news_sub }}</p></div>
+      {{ m.news_filters(t) }}
+    </div>
+    {{ m.news_list(news, lang, t) }}
+    <a class="more" href="{{ lang_root }}news.html">{{ t.news_more }}</a>
+  </section>
+
+  <section class="block" aria-labelledby="h-research">
+    <div class="block-head">
+      <div><h2 id="h-research">Research</h2><p>{{ t.research_sub }}</p></div>
+      <a class="more" href="{{ lang_root }}research/index.html">{{ t.research_more }}</a>
+    </div>
+    {% for p in projects if p.featured %}{{ m.project_card(p, lang, t, lang_root, root, big=true) }}{% endfor %}
+    <div class="grid-2">
+      {% for p in projects if not p.featured %}{{ m.project_card(p, lang, t, lang_root, root) }}{% endfor %}
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="h-pubs">
+    <div class="block-head">
+      <div><h2 id="h-pubs">Publications</h2><p>{{ t.recent_pubs }}</p></div>
+    </div>
+    <ul class="pub-list">
+      {% for i in top_pubs %}{{ m.pub_item(i, lang, t, lang_root, proj_by_slug) }}{% endfor %}
+    </ul>
+    <a class="more" href="{{ lang_root }}publications.html">{{ t.pubs_more }}</a>
+  </section>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}assets/js/site.js" defer></script>{% endblock %}

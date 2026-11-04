@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set active = 'pubs' %}
+{% block title %}Publications | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<div class="wrap page" id="pubs">
+  <div class="block-head"><div><h1 class="page-title">Publications</h1><p>{{ t.pubs_sub }}</p></div></div>
+
+  <div class="filters" hidden>
+    <div class="pill-row tabs" role="group" aria-label="category">
+      <button type="button" class="pill" aria-pressed="true" data-cat="all">{{ t.all }} <span class="n">{{ items|length }}</span></button>
+      {% for k, c in CATEGORIES.items() if counts[k] %}
+      <button type="button" class="pill" aria-pressed="false" data-cat="{{ k }}">{{ c[lang] }} <span class="n">{{ counts[k] }}</span></button>
+      {% endfor %}
+    </div>
+    <div class="filter-row">
+      <div class="pill-row years" role="group" aria-label="{{ t.fy }}">
+        <span class="filter-label">{{ t.fy }}</span>
+        <button type="button" class="pill pill-sq" aria-pressed="true" data-fy="all">{{ t.all }}</button>
+        {% for y in fys %}<button type="button" class="pill pill-sq" aria-pressed="false" data-fy="{{ y }}">{{ t.fy_fmt.format(y) }}</button>{% endfor %}
+      </div>
+    </div>
+    <div class="filter-row">
+      <label class="filter-label" for="f-proj">{{ t.project }}</label>
+      <select id="f-proj">
+        <option value="all">{{ t.all }}</option>
+        {% for p in projects %}<option value="{{ p.slug }}">No.{{ p.num }} {{ L(p.short, lang) }}</option>{% endfor %}
+      </select>
+      <label class="filter-label" for="f-q">{{ t.search }}</label>
+      <input id="f-q" type="search" placeholder="{{ t.search_ph }}">
+    </div>
+  </div>
+
+  {% for k, c in CATEGORIES.items() if counts[k] %}
+  <section class="pub-group" data-group="{{ k }}">
+    <h2>{{ c['long_' ~ lang] }} <span class="count">{{ counts[k] }}</span></h2>
+    <ul class="pub-list">
+      {% for i in items if i.cat == k %}{{ m.pub_item(i, lang, t, lang_root, proj_by_slug) }}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  <p class="empty" hidden>{{ t.none_found }}</p>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}assets/js/site.js" defer></script>{% endblock %}

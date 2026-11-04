@@ -1,0 +1,81 @@
+{
+ "total_items": 4,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_interests/42580344",
+   "@type": "research_interests",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+   "rm:id": "42580344",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:43:15Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:43:15Z",
+   "keyword": {
+    "ja": "骨導音知覚",
+    "en": "Bone-conduction hearing"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_interests/42580346",
+   "@type": "research_interests",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+   "rm:id": "42580346",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:49:45Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:49:45Z",
+   "keyword": {
+    "ja": "自己聴取音の伝達過程",
+    "en": "Transmission process of one's own voice"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_interests/42580345",
+   "@type": "research_interests",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+   "rm:id": "42580345",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:46:45Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:46:45Z",
+   "keyword": {
+    "ja": "中耳動特性計測",
+    "en": "Measurement of middle-ear dynamic characteristics"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_interests/42580348",
+   "@type": "research_interests",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_interests",
+   "rm:id": "42580348",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:52:22Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:52:22Z",
+   "keyword": {
+    "ja": "音声信号処理",
+    "en": "Speech signal processing"
+   }
+  }
+ ]
+}

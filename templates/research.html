@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set active = 'research' %}
+{% block title %}Research | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<div class="wrap page stack-l">
+  <div class="block-head"><div><h1 class="page-title">Research</h1><p>{{ t.research_sub }}</p></div></div>
+  {% for p in projects if p.featured %}{{ m.project_card(p, lang, t, lang_root, root, big=true) }}{% endfor %}
+  <div class="grid-2">
+    {% for p in projects if not p.featured %}{{ m.project_card(p, lang, t, lang_root, root) }}{% endfor %}
+  </div>
+  <p class="note">{% if lang == 'ja' %}研究分担者として参画している研究課題は <a href="{{ lang_root }}grants.html">Grants</a> に掲載しています。{% else %}Grants in which I participate as a co-investigator are listed on the <a href="{{ lang_root }}grants.html">Grants</a> page.{% endif %}</p>
+</div>
+{% endblock %}

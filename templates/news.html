@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set active = 'news' %}
+{% block title %}News | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<div class="wrap page">
+  <div class="block-head">
+    <div><h1 class="page-title">News</h1><p>{{ t.news_sub }}</p></div>
+    {{ m.news_filters(t) }}
+  </div>
+  {{ m.news_list(news, lang, t) }}
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}assets/js/site.js" defer></script>{% endblock %}

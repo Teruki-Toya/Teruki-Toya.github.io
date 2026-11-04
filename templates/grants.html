@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set active = 'grants' %}
+{% block title %}Grants | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<div class="wrap page">
+  <div class="block-head"><div><h1 class="page-title">Grants</h1><p>{{ t.grants_sub }}</p></div></div>
+  <ul class="grant-list">
+    {% for g in grants %}
+    <li class="grant{% if not g.active %} past{% endif %}">
+      <span class="badge {{ 'badge-solid' if g.role == 'pi' else 'badge-outline' }}">{{ t.role_pi if g.role == 'pi' else t.role_co }}</span>
+      <div>
+        <strong>{{ L(g.raw.research_project_title, lang) }}</strong>
+        <span class="muted">{{ L(g.raw.offer_organization, lang) }} {{ L(g.raw.system_name, lang) }}{% if g.raw.category %} · {{ L(g.raw.category, lang) }}{% endif %}</span>
+        <span class="muted">{{ t.period }}: {{ g.from }}–{{ g.to }}{% if g.kaken %} · <a href="{{ g.kaken }}" rel="noopener">KAKEN ↗</a>{% endif %}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

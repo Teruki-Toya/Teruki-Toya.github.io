@@ -1,0 +1,106 @@
+{
+ "total_items": 5,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580334",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+   "rm:id": "42580334",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:30:13Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:30:13Z",
+   "academic_society_name": {
+    "ja": "日本機械学会"
+   },
+   "from_date": "2022",
+   "to_date": "9999"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580332",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+   "rm:id": "42580332",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:29:29Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:29:29Z",
+   "academic_society_name": {
+    "ja": "アメリカ音響学会",
+    "en": "The Acoustical Society of America"
+   },
+   "from_date": "2017",
+   "to_date": "9999"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580331",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+   "rm:id": "42580331",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:28:34Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:28:34Z",
+   "academic_society_name": {
+    "ja": "日本音響学会"
+   },
+   "from_date": "2015",
+   "to_date": "9999"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580330",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+   "rm:id": "42580330",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:28:11Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:28:11Z",
+   "academic_society_name": {
+    "ja": "情報処理学会"
+   },
+   "from_date": "2014",
+   "to_date": "9999"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/association_memberships/42580333",
+   "@type": "association_memberships",
+   "@reverse": "https://api.researchmap.jp/t-toya/association_memberships",
+   "rm:id": "42580333",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:29:55Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:29:55Z",
+   "academic_society_name": {
+    "ja": "電子情報通信学会"
+   },
+   "from_date": "2016",
+   "to_date": "2019"
+  }
+ ]
+}

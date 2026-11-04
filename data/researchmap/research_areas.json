@@ -1,0 +1,80 @@
+{
+ "total_items": 3,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_areas/42580352",
+   "@type": "research_areas",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+   "rm:id": "42580352",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:53:22Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:53:22Z",
+   "discipline_number": "A289",
+   "item_number": "A61010",
+   "discipline": {
+    "ja": "情報通信",
+    "en": "Informatics"
+   },
+   "research_field": {
+    "ja": "知覚情報処理",
+    "en": "Perceptual information processing"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_areas/42580356",
+   "@type": "research_areas",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+   "rm:id": "42580356",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:56:54Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:56:54Z",
+   "discipline_number": "A289",
+   "item_number": "A61030",
+   "discipline": {
+    "ja": "情報通信",
+    "en": "Informatics"
+   },
+   "research_field": {
+    "ja": "知能情報学",
+    "en": "Intelligent informatics"
+   }
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/research_areas/42580355",
+   "@type": "research_areas",
+   "@reverse": "https://api.researchmap.jp/t-toya/research_areas",
+   "rm:id": "42580355",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T16:54:47Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T16:54:47Z",
+   "discipline_number": "A189",
+   "item_number": "A90110",
+   "discipline": {
+    "ja": "ライフサイエンス",
+    "en": "Life sciences"
+   },
+   "research_field": {
+    "ja": "生体医工学",
+    "en": "Biomedical engineering"
+   }
+  }
+ ]
+}

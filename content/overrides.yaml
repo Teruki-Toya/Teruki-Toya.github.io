@@ -1,0 +1,24 @@
+# researchmap のデータに対する上書き設定
+# 業績ID（rm:id）は researchmap の各業績ページURL末尾の数字です。
+# 例: https://researchmap.jp/t-toya/published_papers/54765849 → "54765849"
+
+# 業績の分類を個別に変更する
+# 分類キー: journal / chapter / intl_reviewed / intl_other / research_meeting / domestic / books / patents / awards
+category:
+  "44323790": intl_other   # INTER-NOISE 2023（researchmapでは「学術雑誌」で登録）
+  "45592916": intl_other   # APCB 2023（researchmapで種別未設定）
+
+# 非表示にする業績
+hide: []
+
+# プロジェクトの関連業績に個別に追加／除外する  { 業績ID: プロジェクトslug }
+project_add: {}
+project_remove: {}
+
+# 自動ニュースから除外する業績ID
+news_hide: []
+
+# 業績に追加のリンク（PDF・スライド等）を付ける
+extra_links: {}
+#  "54765849":
+#    - {label: PDF, url: "https://..."}

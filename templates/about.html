@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% set active = 'about' %}
+{% block title %}About | {{ L(site.name, lang) }}{% endblock %}
+{% block main %}
+<div class="wrap page about">
+  <div class="about-top">
+    <img class="about-photo" src="{{ root }}{{ site.profile_image }}" alt="{{ L(site.name, lang) }}">
+    <div class="about-id">
+      <h1 class="page-title">{{ L(site.name, lang) }}</h1>
+      <p class="muted">{{ site.name.en if lang == 'ja' else site.name.ja }}</p>
+      <p>{{ L(site.position, lang) }}<br><a href="{{ site.lab_url }}" rel="noopener">{{ L(site.lab, lang) }}</a></p>
+      {% if interests %}<div class="tags">{% for x in interests %}<span class="tag">{{ L(x.keyword, lang) }}</span>{% endfor %}</div>{% endif %}
+      <div class="link-row">{% for l in site.links %}<a href="{{ l.url }}" rel="noopener">{{ L(l.label, lang) }} ↗</a>{% endfor %}</div>
+    </div>
+  </div>
+
+  <div class="about-grid">
+    <section>
+      <h2>{{ t.career }}</h2>
+      <dl class="cv">
+        {% for x in career %}<dt>{{ dot_date(x.from_date) }}–{{ dot_date(x.to_date) or ('現在' if lang == 'ja' else 'present') }}</dt><dd>{{ L(x.affiliation, lang) }} {{ L(x.section, lang) }} {{ L(x.job, lang) }}</dd>{% endfor %}
+      </dl>
+    </section>
+    <section>
+      <h2>{{ t.education }}</h2>
+      <dl class="cv">
+        {% for x in education %}<dt>{{ dot_date(x.from_date) }}–{{ dot_date(x.to_date) or ('現在' if lang == 'ja' else 'present') }}</dt><dd>{{ L(x.affiliation, lang) }} {{ L(x.department, lang) }} {{ L(x.course, lang) }}</dd>{% endfor %}
+      </dl>
+      {% if profile.degrees %}
+      <h2>{{ t.degrees }}</h2>
+      <dl class="cv">{% for d in profile.degrees %}<dt>{{ dot_date(d.degree_date) }}</dt><dd>{{ L(d.degree, lang) }}（{{ L(d.degree_institution, lang) }}）</dd>{% endfor %}</dl>
+      {% endif %}
+    </section>
+    <section>
+      <h2>{{ t.areas }}</h2>
+      <ul class="plain">{% for a in areas %}<li>{{ L(a.discipline, lang) }} / {{ L(a.research_field, lang) }}</li>{% endfor %}</ul>
+      <h2>{{ t.memberships }}</h2>
+      <ul class="plain">{% for a in memberships %}<li>{{ L(a.academic_society_name, lang) }}</li>{% endfor %}</ul>
+    </section>
+    <section>
+      <h2>Awards</h2>
+      <ul class="plain">{% for i in awards %}<li><span class="muted">{{ dot_date(i.date) }}</span> {{ L(i.raw.award_name, lang) }}<br><span class="muted">{{ L(i.raw.association, lang) }}</span></li>{% endfor %}</ul>
+      <h2>{{ t.contact }}</h2>
+      <p>{{ L(site.address, lang) }}<br>{{ site.email_obfuscated }}</p>
+    </section>
+  </div>
+</div>
+{% endblock %}

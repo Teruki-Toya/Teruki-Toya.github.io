@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ L(site.name, lang) }}{% endblock %}</title>
+<meta name="description" content="{{ L(site.name, lang) }} — {{ L(site.position_short, lang) }}">
+<link rel="alternate" hreflang="{{ 'en' if lang == 'ja' else 'ja' }}" href="{{ alt_href }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Inter+Tight:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}assets/css/style.css">
+<link rel="icon" href="{{ root }}assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:image" content="{{ site.base_url }}/{{ site.profile_image }}">
+</head>
+<body>
+<a class="skip" href="#main">{{ 'メインへ移動' if lang == 'ja' else 'Skip to content' }}</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ lang_root }}index.html">
+      <span class="brand-mark" aria-hidden="true">TT</span>
+      <span class="brand-name">{{ site.name.ja if lang == 'ja' else site.name.en }}{% if lang == 'ja' %} <span class="brand-en">{{ site.name.en }}</span>{% endif %}</span>
+    </a>
+    <nav class="nav" aria-label="{{ 'メインメニュー' if lang == 'ja' else 'Main menu' }}">
+      <a href="{{ lang_root }}news.html"{% if active == 'news' %} aria-current="page"{% endif %}>{{ t.nav_news }}</a>
+      <a href="{{ lang_root }}research/index.html"{% if active == 'research' %} aria-current="page"{% endif %}>{{ t.nav_research }}</a>
+      <a href="{{ lang_root }}publications.html"{% if active == 'pubs' %} aria-current="page"{% endif %}>{{ t.nav_pubs }}</a>
+      <a href="{{ lang_root }}grants.html"{% if active == 'grants' %} aria-current="page"{% endif %}>{{ t.nav_grants }}</a>
+      <a href="{{ lang_root }}about.html"{% if active == 'about' %} aria-current="page"{% endif %}>{{ t.nav_about }}</a>
+      <span class="lang-switch" role="group" aria-label="{{ t.lang_label }}">
+        {% if lang == 'ja' %}<span class="on" aria-current="true">JA</span><a href="{{ alt_href }}" hreflang="en" lang="en">EN</a>
+        {% else %}<a href="{{ alt_href }}" hreflang="ja" lang="ja">JA</a><span class="on" aria-current="true">EN</span>{% endif %}
+      </span>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-id">
+      <strong>{{ site.name.ja }} / {{ site.name.en }}</strong>
+      <span>{{ L(site.position, lang) }}</span>
+      <span>{{ L(site.address, lang) }}</span>
+      <span>{{ site.email_obfuscated }}</span>
+    </div>
+    <div class="footer-links">
+      {% for l in site.links %}<a href="{{ l.url }}" rel="noopener">{{ L(l.label, lang) }}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="wrap footer-meta">{{ t.updated }} · {{ t.last_build }}: {{ today.isoformat() }}</div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

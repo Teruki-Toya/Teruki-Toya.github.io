@@ -1,0 +1,44 @@
+{
+ "total_items": 1,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/industrial_property_rights/42880010",
+   "@type": "industrial_property_rights",
+   "@reverse": "https://api.researchmap.jp/t-toya/industrial_property_rights",
+   "rm:id": "42880010",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-07-23T07:07:56Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-07-23T07:07:56Z",
+   "industrial_property_right_type": "patent_right",
+   "industrial_property_right_title": {
+    "ja": "聴覚器官のための測定装置"
+   },
+   "inventors": {
+    "ja": [
+     {
+      "name": "鳥谷 輝樹"
+     },
+     {
+      "name": "村越道生"
+     }
+    ]
+   },
+   "application_number": "特願2023-053643",
+   "application_date": "2023-03-29",
+   "applicants": [
+    {
+     "applicant": {
+      "ja": "国立大学法人金沢大学"
+     },
+     "rm:institution_code": "0236000000"
+    }
+   ]
+  }
+ ]
+}

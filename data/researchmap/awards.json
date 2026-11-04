@@ -1,0 +1,223 @@
+{
+ "total_items": 6,
+ "items": [
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/48412035",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "48412035",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-11-11T00:18:17Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-11-11T00:19:16Z",
+   "award_name": {
+    "ja": "Silver Prize - IEEE GCCE 2024 Excellent Paper Awards",
+    "en": "Silver Prize - IEEE GCCE 2024 Excellent Paper Awards"
+   },
+   "winners": {
+    "ja": [
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Taichi Kouno"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ],
+    "en": [
+     {
+      "name": "Teruki Toya"
+     },
+     {
+      "name": "Taichi Kouno"
+     },
+     {
+      "name": "Kenji Ozawa"
+     }
+    ]
+   },
+   "award_title": {
+    "ja": "Towards Mimicking Speakers' Own Perceived Voice by Subjective Evaluation Considering Bone-Conduction Transmission Characteristics",
+    "en": "Towards Mimicking Speakers' Own Perceived Voice by Subjective Evaluation Considering Bone-Conduction Transmission Characteristics"
+   },
+   "association": {
+    "ja": "2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)",
+    "en": "2024 IEEE 13th Global Conference on Consumer Electronics (GCCE2024)"
+   },
+   "award_date": "2024-10",
+   "identifiers": {
+    "rm:research_project_id": [
+     "48253706"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/48253706",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/45584170",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "45584170",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2024-02-13T04:54:49Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2024-02-13T04:54:49Z",
+   "award_name": {
+    "ja": "粟屋 潔学術奨励賞",
+    "en": "Awaya Prize Young Researcher Award"
+   },
+   "winners": {
+    "ja": [
+     {
+      "name": "鳥谷輝樹"
+     }
+    ],
+    "en": [
+     {
+      "name": "Teruki Toya"
+     }
+    ]
+   },
+   "award_title": {
+    "ja": "インパルス応答測定原理を応用した中耳インピーダンスメーターの改良",
+    "en": "Improvement of middle ear impedance meter based on principles of impulse response measurement"
+   },
+   "association": {
+    "ja": "日本音響学会",
+    "en": "Acoustical Society of Japan"
+   },
+   "award_date": "2024-01",
+   "identifiers": {
+    "rm:research_project_id": [
+     "44397623"
+    ]
+   },
+   "see_also": [
+    {
+     "@id": "https://api.researchmap.jp/t-toya/research_projects/44397623",
+     "label": "rm:research_project_id"
+    }
+   ]
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/42579936",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "42579936",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:17:57Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:17:57Z",
+   "award_name": {
+    "ja": "学生研究奨励賞",
+    "en": "Student-Research Encouraging Prize"
+   },
+   "award_title": {
+    "ja": "気導・骨導の遅延聴覚フィードバックが発話に与える影響"
+   },
+   "association": {
+    "ja": "日本音響学会電気音響研究会",
+    "en": "Workshop for Electroacoustics, Acoustical Society of Japan"
+   },
+   "award_date": "2016-10"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/42579954",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "42579954",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:22:17Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:22:17Z",
+   "award_name": {
+    "en": "NCSP'16 Student Paper Award"
+   },
+   "award_title": {
+    "en": "Study on effects of speech production during delayed auditory feedback for air-conducted and bone-conducted speech"
+   },
+   "association": {
+    "en": "Research Institute of Signal Processing"
+   },
+   "award_date": "2016-03"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/42579942",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "42579942",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:20:40Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:20:40Z",
+   "award_name": {
+    "ja": "優秀学生賞",
+    "en": "Best Student Award"
+   },
+   "association": {
+    "ja": "電子情報通信学会北陸支部",
+    "en": "Hokuriku Branch, The Institute of Electronics, Information and Communication Engineers"
+   },
+   "award_date": "2016-03"
+  },
+  {
+   "@id": "https://api.researchmap.jp/t-toya/awards/42579987",
+   "@type": "awards",
+   "@reverse": "https://api.researchmap.jp/t-toya/awards",
+   "rm:id": "42579987",
+   "rm:user_id": "R000050523",
+   "display": "disclosed",
+   "major_achievement": false,
+   "rm:creator_id": "R000050523",
+   "rm:creator_type": "myself",
+   "rm:created": "2023-06-21T13:29:47Z",
+   "rm:modifier_id": "R000050523",
+   "rm:modifier_type": "myself",
+   "rm:modified": "2023-06-21T13:29:47Z",
+   "award_name": {
+    "ja": "優秀論文発表賞",
+    "en": "Best Paper & Presentation Award"
+   },
+   "award_title": {
+    "ja": "心理物理的同調曲線による抑圧性マスキングの検討",
+    "en": "Experimental study on suppressive masking based on psychophysical tuning curve"
+   },
+   "association": {
+    "ja": "日本音響学会北陸支部",
+    "en": "Hokuriku Branch, Acoustical Society of Japan"
+   },
+   "award_date": "2015-11"
+  }
+ ]
+}

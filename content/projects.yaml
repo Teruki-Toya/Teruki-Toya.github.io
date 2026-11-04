@@ -1,0 +1,286 @@
+# 研究プロジェクト
+# - 並び順がそのまま表示順です。
+# - badge: lead（研究代表）/ collab（共同研究）/ ongoing（進行中）
+# - featured: true のものはトップで大きく表示
+# - grants: researchmap の研究課題ID（rm:id）。研究課題に紐づく業績が自動で「関連業績」に入ります
+# - match: 業績タイトル・掲載誌名に対する正規表現。マッチした業績も「関連業績」に入ります
+# - 業績を個別に足す／外すときは content/overrides.yaml の project_add / project_remove を使います
+
+- slug: open-ear
+  num: "01"
+  badge: lead
+  featured: true
+  status: active
+  eyebrow: OPEN-EAR ACOUSTIC CONTROL
+  short: {ja: 耳開放型音響制御, en: Open-ear control}
+  title:
+    ja: 耳を塞がずに、不要な音を消し、必要な音を届ける
+    en: Suppress what you don't need, deliver what you do — without covering the ears
+  subtitle:
+    ja: 知覚的相殺に基づく両耳骨導伝達特性推定による耳開放型広帯域音響制御
+    en: Open-ear wideband acoustic control via binaural bone-conduction transfer estimation based on perceptual cancellation
+  funding:
+    ja: 科研費 若手研究（研究代表）
+    en: JSPS KAKENHI Grant-in-Aid for Early-Career Scientists (PI)
+  image: assets/img/projects/wakate_concept.jpg
+  image_alt:
+    ja: 骨導・軟骨導デバイスで不要な音を逆相で抑圧し、必要な音を同相で増幅する耳開放型音響制御の概念図
+    en: Concept of open-ear acoustic control in which a bone/cartilage-conduction device cancels unwanted sound in antiphase and amplifies wanted sound in phase
+  tags: {ja: [骨導音, 知覚的相殺, open-ear ANC, 軟骨伝導], en: [Bone conduction, Perceptual cancellation, Open-ear ANC, Cartilage conduction]}
+  summary:
+    ja: >-
+      骨導デバイスから二次音を与え、耳を開放したまま外界からの不要な音を抑圧し、必要な音を強調する。
+      直接観測できない骨導伝達特性を、ラウドネスが最小となる「知覚的相殺」と外耳道内の音響計測を融合して推定し、
+      両耳・広帯域の音響制御をめざす。
+    en: >-
+      Using secondary sounds from a bone-conduction device, we aim to suppress unwanted external sounds and emphasize
+      wanted ones while leaving the ears open. Bone-conduction transfer characteristics that cannot be observed directly
+      are estimated by fusing "perceptual cancellation" (minimizing loudness) with in-ear acoustic measurements, toward
+      binaural, wideband acoustic control.
+  sections:
+    - heading: {ja: 背景, en: Background}
+      body:
+        ja: >-
+          耳を塞がずに外界から到来する不要音を抑圧し、必要な音を保持・強調する耳開放型音響制御が実現できれば、
+          周囲との音響的つながりを保った新たな聴覚支援・音響提示につながる。実環境では音源は必ずしも正面になく、
+          到来方向によって左右耳に生じる音の振幅・位相は異なるため、左右耳の状態に応じた二次音制御が必要となる。
+          骨導は頭部に機械振動を与えて頭蓋骨・軟組織などを介して音を伝える方式で、外耳道を閉塞せずに二次音を提示できる。
+          一方で骨導音知覚には、外耳道内放射に加えて中耳耳小骨の慣性や蝸牛の圧縮など直接観測が困難な複数の経路が関与し、
+          さらに一側に提示した骨導刺激は対側耳にも伝わる（クロストーク）。
+        en: >-
+          Open-ear acoustic control — suppressing unwanted sounds while preserving or emphasizing wanted ones without
+          occluding the ears — would enable new forms of hearing support that keep listeners acoustically connected to their
+          surroundings. Since real sources are not always in front, the amplitude and phase at the two ears differ, so the
+          secondary sound must be controlled for each ear. Bone conduction delivers sound via head vibration without
+          occluding the ear canal, but its perception involves several pathways that are hard to observe directly
+          (ear-canal radiation, ossicular inertia, cochlear compression), and stimulation on one side also reaches the
+          other ear (cross-talk).
+    - heading: {ja: これまでの成果と問い, en: Progress and research question}
+      body:
+        ja: >-
+          これまでに、骨導二次音の振幅・位相を調整して知覚的な音の大きさ（ラウドネス）が最小となる条件を求める
+          「知覚的相殺」により、250–4000 Hz の純音および複合音の抑圧に成功した。一方、有限個の周波数で得た条件を
+          独立に内挿するだけでは、広帯域定常音の十分な抑圧には至らなかった。そこで、知覚的相殺から得られる
+          「疎だが知覚結果を直接反映する情報」と、外耳道内の音響計測から得られる「密だが観測可能な経路に限られる情報」を
+          融合することで、クロストークと直接観測困難な経路を含む両耳骨導系の広帯域複素特性を推定できるか、を問う。
+        en: >-
+          Using "perceptual cancellation" — adjusting the amplitude and phase of a bone-conducted secondary sound so that
+          perceived loudness is minimized — we have achieved suppression of pure and complex tones between 250 and 4000 Hz.
+          However, interpolating conditions obtained at a few frequencies was not enough to suppress wideband stationary
+          noise. We therefore ask whether fusing sparse psychophysical information from perceptual cancellation with dense
+          in-ear acoustic measurements can estimate the wideband complex characteristics of the binaural bone-conduction
+          system, including cross-talk and pathways that cannot be observed directly.
+    - heading: {ja: アプローチ, en: Approach}
+      image: assets/img/projects/wakate_steps.jpg
+      image_alt: {ja: 相殺点探索から複素応答点、複素モデル推定、未測定点での検証に至る広帯域複素特性推定のステップ, en: Steps of wideband complex-characteristic estimation from cancellation search to validation at unmeasured frequencies}
+      list:
+        ja:
+          - 両耳知覚的相殺条件の取得：選好型ベイズ最適化により、同側・交差経路の影響を含む相殺条件を少ない聴取回数で効率よく求める。
+          - 知覚・音響情報融合による両耳広帯域複素特性推定：外耳道内プローブマイクロホンで計測した密な複素情報と融合し、位相連続性・因果性を満たす FIR モデルとして推定する。
+          - 未観測条件に対する予測性能と制御限界の解明：純音・複合音・帯域制限雑音・広帯域定常雑音について抑圧量と抑圧帯域を定量化する。
+        en:
+          - Binaural perceptual-cancellation conditions are acquired efficiently with preference-based Bayesian optimization, including ipsilateral and cross-talk pathways.
+          - Sparse perceptual data are fused with dense complex responses measured by in-ear probe microphones to estimate a causal, phase-continuous FIR model of the binaural system.
+          - Suppression level and bandwidth are quantified for pure tones, complex tones, band-limited and wideband stationary noise, clarifying the conditions and limits of open-ear wideband control.
+    - heading: {ja: 独自性, en: Originality}
+      body:
+        ja: >-
+          従来の能動騒音制御（ANC）や open-ear ANC は物理的に観測できる音圧を制御対象とする。本研究は、物理センサを置けない
+          聴覚末梢内部を実効的な制御点とみなし、知覚的相殺そのものを伝達系推定の観測原理として用いる点に独自性がある。
+          観測が容易な軟骨伝導を参照系として使いながら、物理計測だけでは完結しない骨導を主対象とすることで、
+          ヒト骨導伝達過程を知覚側から捉える新たな方法論を創出する。
+        en: >-
+          Conventional active noise control (ANC), including open-ear ANC, controls physically observable sound pressure.
+          This project instead treats the inside of the auditory periphery — where no sensor can be placed — as the effective
+          control point, and uses perceptual cancellation itself as the observation principle for system estimation. Using
+          cartilage conduction (whose main components are observable in the ear canal) as a reference, it creates a new
+          methodology for capturing human bone-conduction transmission from the perceptual side.
+  grants: ["48253677"]
+  match: "(骨導|軟骨|bone[- ]conduct|cartilage).{0,40}(抑圧|相殺|suppress|cancell|騒音|noise)|(抑圧|suppress).{0,40}(骨導|bone)"
+
+- slug: sfi
+  num: "02"
+  badge: collab
+  featured: true
+  status: active
+  eyebrow: MIDDLE-EAR DIAGNOSIS (SFI)
+  short: {ja: SFI・中耳診断, en: SFI diagnosis}
+  title:
+    ja: 耳の中の音から、中耳の病態を見分ける
+    en: Telling middle-ear pathologies apart from sound measured in the ear
+  subtitle:
+    ja: 耳内で計測された音響応答の表現学習に基づく中耳疾患判別法の開発
+    en: Middle-ear disease classification based on representation learning of acoustic responses measured in the ear canal
+  funding:
+    ja: 金沢大学 理工研究域・医薬保健研究域との共同研究
+    en: Joint research with Kanazawa University
+  partner_url: https://sfimeter.com/
+  image: assets/img/projects/sfi_overview.jpg
+  image_alt:
+    ja: 静圧掃引付きSFI計測で得た音響応答を、テンソル分解と事前学習済みAIで潜在表現に変換し、正常・固着・離断を判別する流れの図
+    en: Pipeline from static-pressure-swept SFI measurement through tensor decomposition and pretrained AI to classification of normal, fixed and separated ears
+  tags: {ja: [伝音難聴, SFIメーター, 機械学習, 医工連携], en: [Conductive hearing loss, SFI meter, Machine learning, Medical engineering]}
+  summary:
+    ja: >-
+      外耳道内の静圧を掃引しながら周波数掃引インピーダンス（SFI）を計測し、周波数×静圧の多次元音響応答から、
+      テンソル分解や事前学習済みAIで潜在情報を抽出。耳小骨の固着・離断を非侵襲かつ客観的に判別する。
+    en: >-
+      Sweep frequency impedance (SFI) is measured while sweeping the static pressure in the ear canal. Latent information
+      is extracted from the resulting frequency × pressure responses using tensor decomposition and pretrained AI models
+      to classify ossicular fixation and separation non-invasively and objectively.
+  sections:
+    - heading: {ja: 背景と課題, en: Background}
+      body:
+        ja: >-
+          伝音難聴の原因となる耳小骨固着・離断等の中耳疾患では、病態に応じて治療方針や術式を選ぶ必要があり、
+          中耳の状態を非侵襲かつ客観的に評価する技術が求められている。一般的な純音インピーダンス検査（ティンパノメトリ）では、
+          固着と離断という異なる病態が類似した結果を示すことがあり、術前に病変の種類を見極める客観的な材料が十分とはいえない。
+        en: >-
+          In middle-ear diseases that cause conductive hearing loss, such as ossicular fixation and separation, treatment
+          and surgical approach depend on the pathology, so objective non-invasive assessment of the middle ear is needed.
+          Standard tympanometry can show similar results for these different pathologies, leaving clinicians without
+          sufficient objective information before surgery.
+    - heading: {ja: SFI計測とこれまでの成果, en: SFI and results so far}
+      body:
+        ja: >-
+          外耳道内に音響刺激を提示し、その周波数応答から中耳の動特性を評価する周波数掃引インピーダンス（SFI）計測法を、
+          金沢大学と共同で研究している。インパルス応答計測原理を導入して耐雑音性を高めた装置を用い、
+          共振周波数（RF）と音圧変化量（ΔSPL）による機械学習判別で、固着耳 AUC 0.86、離断耳 AUC 1.00 を得た。
+          さらに外耳道内の静圧を掃引しながら計測する静圧掃引付SFIを開発し、RF・ΔSPL の静圧依存性を明らかにした。
+        en: >-
+          With Kanazawa University we develop sweep frequency impedance (SFI) measurement, which presents acoustic stimuli
+          in the ear canal and evaluates middle-ear dynamics from the frequency response. With a noise-robust device based on
+          impulse-response measurement, machine-learning classification using resonance frequency (RF) and ΔSPL achieved
+          AUC 0.86 for fixation and 1.00 for separation. We also built SFI with static-pressure sweep and characterized how
+          RF and ΔSPL depend on static pressure.
+    - heading: {ja: 現在の取り組み, en: Current work}
+      list:
+        ja:
+          - 多次元音響応答からの潜在情報抽出：周波数×静圧の応答に対し、テンソル分解による多変量解析と、DINOv2 などの事前学習済みAIモデルによる表現学習の2つのアプローチを適用する。
+          - 潜在表現に基づく中耳疾患分類：抽出した潜在表現から、正常・固着・離断の3クラスを判別する。
+          - 従来法との比較：RF・ΔSPL に基づく既存の分類器と比べ、静圧掃引による応答変化が病態識別にどれだけ寄与するかを明らかにする。
+        en:
+          - Latent information is extracted from frequency × static-pressure responses with two approaches — tensor decomposition and representation learning with pretrained AI models such as DINOv2.
+          - A three-class classifier (normal / fixation / separation) is built on the learned representations.
+          - Performance is compared with the existing RF/ΔSPL classifier to clarify how much pressure-dependent information contributes.
+  grants: ["44397623"]
+  match: "SFI|sweep[- ]frequency impedance|周波数掃引インピーダンス|中耳|middle[- ]ear|ossicular|耳小骨|伝音難聴|conductive hearing|tympan|ティンパノ|Titan|TITAN|インピーダンスメーター"
+
+- slug: bc-whisper
+  num: "03"
+  badge: ongoing
+  featured: false
+  status: active
+  eyebrow: BONE-CONDUCTED WHISPER INTERFACE
+  short: {ja: 骨導ささやき声, en: BC whisper}
+  title:
+    ja: 騒音下でも届く、骨導ささやき声の音声入力
+    en: Bone-conducted whisper input that works even in noise
+  subtitle:
+    ja: 車室等の騒音環境に頑健な骨導ささやき声入力インタフェースの基盤研究
+    en: Toward a noise-robust bone-conducted whisper input interface for vehicle cabins
+  image: assets/img/projects/bcwhisper_vision.jpg
+  image_alt:
+    ja: 骨導マイクロホンで収音したささやき声を車室騒音下で音声認識する将来像と本研究の対象を示す図
+    en: Vision of a driver using bone-conduction pickup and playback, and the research target of recognizing bone-conducted whispers
+  tags: {ja: [骨導マイクロホン, ささやき声, 音声認識, 自己教師あり学習], en: [Bone-conduction microphone, Whisper, Speech recognition, Self-supervised learning]}
+  summary:
+    ja: >-
+      骨導マイクロホンで収音したささやき声を、車室のような低S/N環境でも安定して認識する。
+      自己教師あり音声表現を用いて、耳を塞がない双方向の音声HMIの入力基盤をつくる。
+    en: >-
+      We aim to recognize whispers captured by a bone-conduction microphone reliably even in low-SNR environments such as
+      car cabins, building the input side of a bidirectional, open-ear speech HMI with self-supervised speech representations.
+  sections:
+    - heading: {ja: 目指す将来像, en: Vision}
+      body:
+        ja: >-
+          自動車の運転や高騒音下での機械作業では、周囲音を聞きながら、視線や手を占有せずに車両・機械とやりとりできる
+          音声 Human-Machine Interface（HMI）が有用である。目指すのは、車室内で共有される音場への依存を減らし、
+          骨伝導による収音と提示によって運転者と車両の間に個別の音声通信チャネルを形成する、耳を塞がない双方向HMIである。
+          その第一段階として、技術的課題の大きい入力系に焦点を絞る。
+        en: >-
+          When driving or operating machinery in loud environments, a speech HMI that lets people interact without using
+          their eyes or hands — while still hearing their surroundings — is valuable. Our long-term goal is an open-ear,
+          bidirectional HMI that uses bone-conduction pickup and playback to form a personal speech channel between driver
+          and vehicle. As a first step we focus on the technically demanding input side.
+    - heading: {ja: アプローチ, en: Approach}
+      image: assets/img/projects/bcwhisper_steps.jpg
+      image_alt: {ja: 研究のステップを示す図, en: Research steps}
+      body:
+        ja: >-
+          骨導マイクロホンは頭蓋骨や軟組織を伝わる音声振動を直接観測するため、空気を伝わる周囲騒音の影響を受けにくい。
+          これまでに、自己教師あり音声表現を用いて骨導ささやき声を通常音声へ変換する技術を開発してきた。
+          本研究ではこの変換で得られる音声特徴を直接音声認識に利用し、ロードノイズや空調騒音を模擬した環境で、
+          骨導ささやき声入力の明瞭性・頑健性と、ささやき声入力が成立する騒音条件・適用限界を明らかにする。
+        en: >-
+          Bone-conduction microphones observe speech vibration through the skull and soft tissue and are therefore less
+          affected by airborne noise. Having developed self-supervised conversion of bone-conducted whispers into normal
+          speech, we now use the converted representations directly for recognition, and evaluate intelligibility,
+          robustness and the noise conditions under which whisper input remains usable in simulated road and HVAC noise.
+  grants: []
+  match: "ささやき|whisper"
+
+- slug: own-voice
+  num: "04"
+  badge: ongoing
+  featured: false
+  status: active
+  eyebrow: OWN-VOICE PERCEPTION
+  short: {ja: 自己聴取音, en: Own voice}
+  title:
+    ja: なぜ録音した自分の声は「自分らしくない」のか
+    en: Why does your recorded voice not sound like "you"?
+  subtitle:
+    ja: 自己聴取音の「自分らしさ」と価値判断を説明する聴覚情報表現の探索
+    en: Auditory representations that explain "self-likeness" and value judgments of one's own voice
+  image: null
+  layers:
+    ja: [音響的特徴, 聴覚末梢の表現, 時間・周波数変調（STM）, 話者性（高次表現）]
+    en: [Acoustic features, Peripheral auditory representation, Spectro-temporal modulation, Speaker identity (high-level)]
+  tags: {ja: [自己聴取音, 骨導音声, 聴覚情報表現, 選好型ベイズ最適化], en: [Own-voice perception, Bone-conducted speech, Auditory representations, Preferential Bayesian optimization]}
+  summary:
+    ja: >-
+      各人にとって最も自分らしい自己聴取音を選好型ベイズ最適化で推定し、変形音声との違いを4段階の聴覚情報表現で比較。
+      「自分らしさ」「違和感」「不快感」がどの表現で説明されるかを明らかにする。
+    en: >-
+      For each person, the most "self-like" version of their own voice is estimated with preferential Bayesian optimization.
+      Differences from transformed voices are then compared across four levels of auditory representation to find which
+      level explains self-likeness, strangeness and unpleasantness.
+  sections:
+    - heading: {ja: 問い, en: Question}
+      body:
+        ja: >-
+          オンライン会議や動画配信、VR/AR の普及で、自分の声をマイクロホン越しに聞く機会は身近になった。
+          録音された自分の声を聞くと、多くの人は「確かに自分の声だが、普段聞いている声とは違う」と感じ、ときに違和感や不快感を覚える。
+          自己聴取音には空気を伝わる気導音だけでなく、頭蓋骨や軟組織を伝わる骨導音が含まれる。
+          これまで骨導音の物理特性を計測・模擬してきたが、ヒトが何を手掛かりに「自分らしい声」と判断するかは、物理の精密化だけでは説明できないことが明確になってきた。
+        en: >-
+          With online meetings, streaming and VR/AR, hearing one's own voice through a microphone has become common, and most
+          people feel that a recording "is my voice, but not the voice I usually hear". Our own voice reaches us via both
+          air and bone conduction. We have measured and simulated the physical properties of bone-conducted speech, but it
+          has become clear that physics alone cannot explain what cues people use to judge a voice as "their own".
+    - heading: {ja: アプローチ, en: Approach}
+      list:
+        ja:
+          - 自己聴取音参照刺激の推定：参加者自身の音声のスペクトル形状を変形し、「どちらが普段の自分の声に近いか」の二者択一を選好型ベイズ最適化で逐次利用して、各人に固有の自分らしい音響状態を推定する。
+          - 変形音声の主観評価：種々の変形音声について、自分らしさ・違和感・不快感を評価する。
+          - 4段階の情報表現での比較：音響的特徴、聴覚末梢の表現、時間・周波数変調（STM）、話者性を保持する音声モデル表現のそれぞれで参照刺激との距離を求め、表現類似性分析（RSA）で評価値との関係を調べる。
+        en:
+          - A personal "own-voice reference" is estimated by repeatedly asking which of two spectrally transformed recordings sounds closer to one's usual voice, driven by preferential Bayesian optimization.
+          - Self-likeness, strangeness and unpleasantness of various transformed voices are rated.
+          - Distances to the reference are computed in four representations — acoustic, peripheral auditory, spectro-temporal modulation (STM) and a speaker-preserving speech model — and related to the ratings with representational similarity analysis (RSA).
+    - heading: {ja: 期待される成果, en: Expected outcomes}
+      body:
+        ja: >-
+          「自分らしさ」「違和感」「不快感」がそれぞれ異なる聴覚情報表現で説明される、といった機能的な分離が得られれば、
+          ヒトが「自分の声だ」と判断する仕組みと「心地よい／不快だ」と価値を与える仕組みの関係を示すことができる。
+          工学的には、自己聴取音を自然に再現するために何を一致させればよいかを明確にし、オンラインコミュニケーション、
+          没入型VR/AR、音声アバター、音声変換などの自然性向上につながる。
+        en: >-
+          If self-likeness, strangeness and unpleasantness turn out to be explained by different representations, this will
+          reveal how judging "this is my voice" relates to judging a sound as pleasant or unpleasant. In engineering terms it
+          clarifies what must be matched to reproduce one's own voice naturally, benefiting online communication, immersive
+          VR/AR, voice avatars and voice conversion.
+  grants: ["42580335", "42580337", "48253706"]
+  match: "自己聴取|own[- ]voice|own perceived voice|speakers'? own|混合比|mixing ratio|話者自身|話者が知覚|遅延聴覚フィードバック|delayed auditory feedback|音色の知覚の個人性|音高弁別"

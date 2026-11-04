@@ -1,0 +1,52 @@
+# サイト全体の設定（氏名・所属・リンク・トップのキャッチコピー）
+researchmap_id: t-toya
+base_url: https://teruki-toya.github.io
+
+name:
+  ja: 鳥谷 輝樹
+  en: Teruki Toya
+name_kana: とや てるき
+# 業績中で自分の名前として太字にする表記（正規表現）
+self_name_patterns:
+  - "鳥谷\\s*,?\\s*輝樹"
+  - "Teruki\\s+Toya"
+  - "TOYA\\s*,?\\s*Teruki"
+  - "Toya\\s*,\\s*T"
+  - "T\\.\\s*Toya"
+  - "Teruki\\s+TOYA"
+
+position:
+  ja: 山梨大学 大学院総合研究部 工学域 電気電子情報工学系 助教
+  en: Assistant Professor, Graduate Faculty of Interdisciplinary Research, Faculty of Engineering, University of Yamanashi
+position_short:
+  ja: 山梨大学 大学院総合研究部 工学域 助教
+  en: Assistant Professor, University of Yamanashi
+lab:
+  ja: メディア感性工学研究室
+  en: Media Kansei Engineering Laboratory
+lab_url: https://www.ccn.yamanashi.ac.jp/~ozawa/
+
+address:
+  ja: 〒400-8511 山梨県甲府市武田4-3-11 山梨大学
+  en: 4-3-11 Takeda, Kofu, Yamanashi 400-8511, Japan
+email_obfuscated: t.toya [at] yamanashi.ac.jp
+
+hero:
+  eyebrow: HEARING · SPEECH · BONE CONDUCTION · ACOUSTIC SIGNAL PROCESSING
+  title: "Listening to the body,<br>engineering the sound."
+  lead:
+    ja: 聴こえと声のしくみを解き明かし、診断・聴取支援・音声インタフェースのための音響技術をつくる。
+    en: Uncovering how we hear and perceive voices, and building acoustic technologies for diagnosis, hearing support and speech interfaces.
+
+profile_image: assets/img/profile.jpg
+
+links:
+  - {label: researchmap, url: "https://researchmap.jp/t-toya"}
+  - {label: KAKEN, url: "https://kaken.nii.ac.jp/ja/search/?qm=00911223"}
+  - {label: X, url: "https://x.com/"}   # ← 正しいアカウントURLに変更してください
+  - {label: {ja: メディア感性工学研究室, en: Media Kansei Eng. Lab.}, url: "https://www.ccn.yamanashi.ac.jp/~ozawa/"}
+
+# トップページに表示するニュース件数
+top_news_count: 5
+# researchmap から自動生成するニュースの対象期間（月）
+auto_news_months: 24
